@@ -4,18 +4,18 @@ body {
     min-height: 99%;
     width: 100%;
     min-width: 550px;
-    color: #519975;
-    background: #211D1B;
+    color: #41ffa0;
+    background: #000000;
     font-family: cursor, monospace;
     overflow-x: hidden;
   }
   ::selection {
-    color: #211830;
-    background-color: #519975;
+    color: #000000;
+    background-color: #41ffa0;
   }
   ::-moz-selection {
-    color: #211830;
-    background-color: #519975;
+    color: #000000;
+    background-color: #41ffa0;
   }
   textarea {
     left: -1000px;
@@ -28,8 +28,8 @@ body {
   /* Cursor Start */
   .cursor {
     font-size: 12px;
-    color: #73ABAD;
-    background-color: #73ABAD;
+    color: #41ffa0;
+    background-color: #000000;
     position: relative;
     opacity: 1;
     height: 1.5em;
@@ -50,7 +50,7 @@ body {
   #command {
     cursor: text;
     height: 50px;
-    color: #73ABAD;
+    color: #41ffa0;
   }
   #liner {
     line-height: 1.3em;
@@ -60,7 +60,7 @@ body {
     opacity: 0;
   }
   #liner::before {
-    color: #519975;
+    color: #41ffa0;
     content: "guest@secmancer.github.io:~$";
   }
   @keyframes show {
@@ -100,14 +100,14 @@ body {
     color: #DCDCCC;
   }
   .color2 {
-    color: #B89076;
+    color: #ba784c;
   }
   .command {
-    color: #73ABAD;
-    text-shadow: 0 0 5px #73ABAD; 
+    color: #41ffa0;
+    text-shadow: 0 0 5px #41ffa0; 
   }
   .error {
-    color: #B89076;
+    color: #41ffa0;
   }
   .white {
     color: #fff;
@@ -120,8 +120,8 @@ body {
     text-decoration: inherit;
   }
   a:hover {
-    background: #73ABAD;
-    color: #211830;
+    background: #41ffa0;
+    color: #000000;
   }
   a:focus {
     outline: 0;
