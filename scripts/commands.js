@@ -3,8 +3,8 @@ var github = "https://github.com/secmancer/";
 var tryhackme = "https://tryhackme.com/p/Adan.Silva";
 var hackthebox = "https://app.hackthebox.com/profile/1505106";
 var reddit = "https://www.reddit.com/user/posemancer/";
-var discord = "secmancer (formerly secmancer:6944)"
-var email = 'mailto:adan.t.silva77@gmail.com';
+var discord = "secmancer"
+var email = 'adan.t.silva77@gmail.com';
 var resume = "https://docs.google.com/document/d/1Anyk7aXzhCeQxycVVsqFrxZoH0rLJ53W/edit?usp=sharing&ouid=100723709531946559864&rtpof=true&sd=true";
 
 whois = [
@@ -13,7 +13,7 @@ whois = [
   "I'm Adan Silva, a 18 year old student who is very interested in the field of cybersecurity.",
   "Being a recent high school graduate, I have successfully completed my high school's Cybersecurity CTE pathway.",
   "I was one of the first students to do so and earned my CompTIA ITF+ certificate from that program.",
-  "Currently, I am studying for my Security+ certificate, with plans on earning more from organizations like CompTIA and the EC Council.",
+  "Currently, I am studying for my Security+ certification.",
   "While studying for my certificates, I also work on my skills by playing CTFs through sites like TryHackMe or HackTheBox!",
   "While I'm not super certain on what to do yet, penetration testing and vulnerability assesments have caught my eye.",
   "I am attending Cal Poly SLO for a BS Degree in Computer Science.",
@@ -28,13 +28,6 @@ whois = [
   "<br>"
 ];
 
-whoami = [
-  "<br>",
-  "guest",
-  "Well... DUH!",
-  "<br>"
-];
-
 social = [
   "<br>",
   "Here are some ways to reach me.",
@@ -45,9 +38,8 @@ social = [
   'github         <a href="' + github + '" target="_blank">github/secmancer' + "</a>",
   'tryhackme      <a href="' + tryhackme + '" target="_blank">tryhackme/Adan.Silva' + "</a>",
   'hackthebox     <a href="' + hackthebox + '" target="_blank">hackthebox/secmancer' + "</a>",
-  "<br>",
-  "Hope to hear from you soon!",
-  "<br>",
+  "You can also shoot me an email at: " + email,
+  "<br>"
 ];
 
 projects = [
@@ -66,20 +58,13 @@ help = [
   '<span class="command">whois</span>          Who is this Adan Silva?',
   '<span class="command">social</span>         Display ways to reach me',
   '<span class="command">projects</span>       Projects I have worked on',
-  '<span class="command">reachme</span>        Reach me via Email',
   '<span class="command">resume</span>         Download my resume!',
   "<br>",
   "-- BASIC COMMANDS --",
-  '<span class="command">whoami</span>         Who are you?',
   '<span class="command">history</span>        View command history',
   '<span class="command">help</span>           Self explanatory',
   '<span class="command">clear</span>          Clear terminal',
   '<span class="command">banner</span>         Display the header',
-  "<br>",
-  "-- QUESTIONABLE COMMANDS --",
-  '<span class="command">msfconsole</span>     Run the Metasploit framework',
-  '<span class="command">sudo -l</span>        Maybe you can run some files?',
-  '<span class="command">sudo rm -rf /</span>  Run the funny command!',
   "<br>",
 ];
 
@@ -103,11 +88,7 @@ banner = [
 "             | ,',' ",
 "_____________|','   ",
 "              ",
-  '<span class="color2">You have appeared to reach the terminal.</span>',
-  '<span class="color2">Let me guess. Used a Metasploit module? Dirbuster? A simple nmap scan?</span>',
-  '<span class="color2">Whatever you used to get here, welcome to my site!</span>',
-  '<span class="color2">Here is your terminal you wanted. (not using root of course!) </span>',
+  '<span class="color2">You have appeared to reach the website, but were thrown into the terminal instead.</span>',
   "<span class=\"color2\">Use the </span> <span class=\"command\">'help'</span><span class=\"color2\"> command to access the avaliable commands!</span>",
   '<span class="color2">Enjoy your stay!</span>',
-  "<span class=\"color2\">As always,</span> <span class=\"command\"><b>HACK THE PLANET!</b></span><span class=\"color2\"></span>"
 ];

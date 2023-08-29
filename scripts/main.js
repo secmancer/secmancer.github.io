@@ -56,27 +56,6 @@ function commander(cmd) {
     case "whois":
       loopLines(whois, "color2 margin", 80);
       break;
-    case "whoami":
-      loopLines(whoami, "color2 margin", 80);
-      break;
-    case "sudo -l":
-      addLine("Permission denied. Nice try though!");
-      break;
-    case "sudo":
-      addLine("guest is not in the sudoers file.  This incident will be reported.", "color2", 80);
-      setTimeout(function() {
-        window.open('https://www.youtube.com/watch?v=SxlRhT1lNtU');
-      }, 1000); 
-      break;
-    case "sudo rm -rf /":
-      setTimeout(function() {
-        window.open('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.lQpve6-1g5tIDNWYOIzUUAAAAA%26pid%3DApi&f=1&ipt=23a30faa19899d5a86903e767ce0ee311d3c464b413c7e1f62d0f1d12651d7a4&ipo=images');
-      }, 10);
-      addLine("You're lucky this isn't a real Linux machine!");
-      break;
-    case "msfconsole":
-      addLine("msfconsole: unknown module. Not sure what package manager this uses, so good luck on that.");
-      break;
     case "resume":
       addLine("Retrieving resume...", "color2", 80);
       setTimeout(function() {
@@ -93,10 +72,6 @@ function commander(cmd) {
       addLine("<br>", "", 0);
       loopLines(commands, "color2", 80);
       addLine("<br>", "command", 80 * commands.length + 50);
-      break;
-    case "reachme":
-      addLine('Opening mailto:<a href="mailto:adan.t.silva77@gmail.com">adan.t.silva77@gmail.com</a>...', "color2", 80);
-      newTab(email);
       break;
     case "clear":
       setTimeout(function() {
@@ -131,6 +106,9 @@ function commander(cmd) {
     case "reddit":
       addLine("Opening Reddit profile...", "color2", 0);
       newTab(reddit);
+      break;
+    case 'email':
+      addLine("You can reach me at: adan.t.silva77@gmail.com. I'm will respond in a timely fashion.");
       break;
     case "credits":
       addLine("Huge thanks to ForrestKnight!");
