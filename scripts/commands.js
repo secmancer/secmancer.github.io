@@ -4,6 +4,7 @@ var tryhackme = "https://tryhackme.com/p/Adan.Silva";
 var hackthebox = "https://app.hackthebox.com/profile/1505106";
 var reddit = "https://www.reddit.com/user/posemancer/";
 var discord = "secmancer"
+var instagram = "https://www.instagram.com/secmancer/"
 var email = 'adan.t.silva77@gmail.com';
 var resume = "https://docs.google.com/document/d/1Anyk7aXzhCeQxycVVsqFrxZoH0rLJ53W/edit?usp=sharing&ouid=100723709531946559864&rtpof=true&sd=true";
 
@@ -35,6 +36,7 @@ social = [
   'discord        ' + discord,
   'reddit         <a href="' + reddit + '" target="_blank">u/posemancer' + "</a>",
   'linkedin       <a href="' + linkedin + '" target="_blank">linkedin/adan-silva-7939a2273' + "</a>",
+  'instagram      <a href="' + instagram + '" target="_blank">instagram/secmancer' + "</a>",
   'github         <a href="' + github + '" target="_blank">github/secmancer' + "</a>",
   'tryhackme      <a href="' + tryhackme + '" target="_blank">tryhackme/Adan.Silva' + "</a>",
   'hackthebox     <a href="' + hackthebox + '" target="_blank">hackthebox/secmancer' + "</a>",

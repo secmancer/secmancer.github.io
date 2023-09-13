@@ -91,6 +91,10 @@ function commander(cmd) {
       addLine("Opening LinkedIn profile...", "color2", 0);
       newTab(linkedin);
       break;
+    case "instagram":
+      addLine("Opening Instagram profile...", "color2", 0);
+      newTab(instagram);
+      break;
     case "github":
       addLine("Opening GitHub profile...", "color2", 0);
       newTab(github);
