@@ -55,6 +55,7 @@ help = [
   "-- PROFILE COMMANDS --",
   '<span class="command">whois</span>          Who is this Adan Silva?',
   '<span class="command">social</span>         Display ways to reach me',
+  '<span class="command">certs</span>          Display my current certifications',
   '<span class="command">projects</span>       Projects I have worked on',
   '<span class="command">resume</span>         Download my resume!',
   "<br>",
