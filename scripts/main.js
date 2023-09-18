@@ -116,6 +116,7 @@ function commander(cmd) {
       break;
     case 'certs':
       addLine("I currently hold the Security+ and ITF+ certificates from CompTIA.");
+      addLine("You can use the security+ and itf+ commands to get copies of those if you want.");
       break;
     case 'security+':
       addLine("Fetching certificate...");
