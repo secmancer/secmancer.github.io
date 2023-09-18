@@ -114,6 +114,17 @@ function commander(cmd) {
     case 'email':
       addLine("You can reach me at: adan.t.silva77@gmail.com. I'm will respond in a timely fashion.");
       break;
+    case 'certs':
+      addLine("I currently hold the Security+ and ITF+ certificates from CompTIA.");
+      break;
+    case 'security+':
+      addLine("Fetching certificate...");
+      newTab("https://www.certmetrics.com/comptia/public/download_e_cert.aspx?cert=7E051C41209CD517DDF66E57E881997DO3E794455DB434132CB02B154134590F1");
+      break;
+    case 'itf+':
+      addLine("Fetching certificate...");
+      newTab("https://www.certmetrics.com/comptia/public/download_e_cert.aspx?cert=052C087FF8D9A1F67E030C023FCC672AO123A0B0134F0617AD928A0B7A4D2C892");
+      break;
     case "credits":
       addLine("Huge thanks to ForrestKnight!");
       addLine("He served as a huge inspiration to me for creating this site.");
