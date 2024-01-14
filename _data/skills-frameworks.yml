@@ -1,0 +1,11 @@
+- name: Linux
+  weight: 5
+
+- name: Windows Server
+  weight: 3
+
+- name: Proxmox
+  weight: 4
+
+- name: Mac
+  weight: 1
