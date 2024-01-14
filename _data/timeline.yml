@@ -1,0 +1,57 @@
+- title: Cybersecurity Intern @ NGHTWLL Consulting LCC
+  title-url:
+  date: Sep 2023 - Present
+  subtitle: "Currently, I am part of the process of overseeing various networks for clients, in which these systems are managed and serviced as needed. However, I also get to see other provided services like vulnerability assessments, penetration testing, and more to see the different future career opportunities that are available in the cybersecurity industry."
+  tags:
+    - tag: Operating Systems
+    - tag: Networking
+    - tag: Cybersecurity
+    - tag: Centralized Services Administration
+    - tag: Vulnerability Assessment
+  timeline-side: right
+
+- title: California Polytechnic State University, San Luis Obispo
+  title-url: https://www.calpoly.edu/
+  date: Sep 2023 - Present
+  subtitle: B.S Computer Science
+  timeline-side: left
+
+- title: Allan Hancock College
+  title-url: https://www.hancockcollege.edu/
+  date: 2019 - 2023
+  subtitle: Dual enrollment classes (transfer credit)
+  timeline-side: right
+
+- title: Orcutt Academy High School
+  title-url: https://www.orcuttschools.net/oahs/
+  date: 2019 - 2023
+  subtitle: High School Diploma
+  timeline-side: left
+
+- title: Software Lead @ FIRST 3512 Spartatroniks
+  title-url: https://www.spartatroniks.com/
+  date: 2022 - 2023
+  subtitle: "I was in charge of the software subteam, which programs our robot to do the specific task the game requires us to do. Represent the team in lead meetings and ensure tasks are done on time. Contribute to robot code and mentor/train rookies to get up to speed. Serve as the lead technician at official competition events"
+  tags:
+    - tag: C++
+    - tag: Linux
+    - tag: Git
+    - tag: Python
+    - tag: Gradle
+    - tag: Java
+    - tag: Controls
+  timeline-side: right
+
+- title: Software Member @ FIRST 3512 Spartatroniks
+  title-url: https://www.spartatroniks.com/
+  date: 2019 - 2022
+  subtitle: "Programmed a huge part of the robot. Learn skills in programming and managing through Git and GitHub. Learned how to work with others and get tasks done under an intense environment."
+  tags:
+    - tag: C++
+    - tag: Linux
+    - tag: Git
+    - tag: Python
+    - tag: Gradle
+    - tag: Java
+    - tag: Controls
+  timeline-side: left
