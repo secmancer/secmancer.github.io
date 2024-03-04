@@ -1,7 +1,22 @@
+- title: Part Time Software Mentor @ FIRST 3512 Spartatroniks
+  title-url: https://www.spartatroniks.com/
+  date: 2024 - Present
+  subtitle: "Train and provide aid to the software lead and subteam. Build projects out for the software students and contribute some parts of code. Maintain the GitHub repos and provide feedback."
+  tags:
+    - tag: C++
+    - tag: Linux
+    - tag: Git
+    - tag: Python
+    - tag: Gradle
+    - tag: Java
+    - tag: Controls
+  timeline-side: right
+
+
 - title: Jr. SOC Analyst Student Assistant @ California Polytechnic State University, San Luis Obispo
   title-url:
   date: March 2024 - Present
-  subtitle: "I aid in looking at the logs of the network, maintaining and updating our cybersecurity equiptment and software, and defend the network to intruders to ensure Cal Poly students and faculty have access to accessible and secure resoureces."
+  subtitle: "I aid in looking at the logs of the network, maintaining and updating our cybersecurity equiptment and software, and defend the network from intruders to ensure Cal Poly students and faculty have access to accessible and secure resoureces."
   tags:
     - tag: Security Operations
     - tag: Cybersecurity
