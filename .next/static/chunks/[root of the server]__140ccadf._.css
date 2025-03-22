@@ -1297,6 +1297,14 @@
     color: var(--color-black);
   }
 
+  .text-blue-500 {
+    color: var(--color-blue-500);
+  }
+
+  .text-gray-500 {
+    color: var(--color-gray-500);
+  }
+
   .text-muted-foreground {
     color: var(--muted-foreground);
   }

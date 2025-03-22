@@ -116,11 +116,32 @@ function Page() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$job$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                 title: "FIRST 3512 - Software Lead",
-                description: "Oversee and manage client networks. Provide updates and needed IT assistance. Provide services like vulnerability assessments and penetration testing when requested.",
+                workplace: "FIRST 3512 Spartatroniks",
+                description: "Lead the software team in developing the robot's code. Work with the mechanical and electrical teams to ensure the robot is functional. Manage our GitHub repo and deligate tasks to other software members. Also provide technician work to the robot during competitions.",
                 dates: "August 2022 - May 2023"
             }, void 0, false, {
                 fileName: "[project]/src/app/experience/page.jsx",
                 lineNumber: 19,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$job$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                title: "FIRST 3512 - Software Student",
+                workplace: "FIRST 3512 Spartatroniks",
+                description: "Program crucial aspects of the robot's code. Work with the mechanical and electrical teams to ensure the robot is functional.",
+                dates: "June 2019 - Jun 2022"
+            }, void 0, false, {
+                fileName: "[project]/src/app/experience/page.jsx",
+                lineNumber: 25,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$job$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                title: "FIRST 3512 - Robotics Student",
+                workplace: "FIRST 3512 Spartatroniks",
+                description: "Help with planning the our first dinner auction event. Member of the winning Chairman's Award team at the 2022 Central Valley Regional.",
+                dates: "June 2019 - Jun 2022"
+            }, void 0, false, {
+                fileName: "[project]/src/app/experience/page.jsx",
+                lineNumber: 31,
                 columnNumber: 7
             }, this)
         ]

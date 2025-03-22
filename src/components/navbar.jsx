@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { House } from "lucide-react";
+import { House, Pi } from "lucide-react";
 
 const links = [
   {
@@ -13,6 +13,10 @@ const links = [
   {
     name: "Projects",
     href: "/projects",
+  },
+  {
+    name: "Certificates",
+    href: "/certs",
   },
   {
     name: "Resume",
