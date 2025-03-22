@@ -3,7 +3,6 @@ import Job from "@/components/job";
 export default function Page() {
   return (
     <div className="w-full h-full flex flex-col items-center justify-center p-8 space-y-8">
-      <h1 className="text-4xl font-bold">Experience</h1>
       <Job
         title="Jr. SOC Analyst Student Assistant"
         workplace="California Polytechnic State University - San Luis Obispo"
