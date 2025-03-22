@@ -34,8 +34,13 @@ export default function Page() {
         link="https://github.com/secmancer/oh_what_fun"
       />
       <Project
+        title="Portfolio"
+        description="This very website! Built with Next.js and Tailwind CSS."
+        link="https://github.com/secmancer/secmancer.github.io"
+      />
+      <Project
         title="Lineage"
-        description="An app for users/authors everywhere to create and collaborate on intricate storylines. Built with as a team in Intro to Software Engineering."
+        description="An app for users/authors everywhere to create and collaborate on intricate storylines. Built as a team of other students in Intro to Software Engineering."
         link="COMING SOON"
       />
       <Project
