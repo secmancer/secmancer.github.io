@@ -48,11 +48,6 @@ export default function Page() {
         description="Repo where I attempt to write security tools in Rust."
         link="COMING SOON"
       />
-      <Project
-        title="Untitled Security Testing Container Tool"
-        description="Tool similar to Exegol, but written in Rust, to spin up Docker/Podman instances for security testing."
-        link="COMING SOON"
-      />
     </div>
   );
 }
