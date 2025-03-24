@@ -44,8 +44,8 @@ export default function Page() {
         link="COMING SOON"
       />
       <Project
-        title="Rust Security Tools"
-        description="Repo where I attempt to write security tools in Rust."
+        title="Security Tools"
+        description="Repo where I attempt to write security tools myself. Mostly aiming to do so in Rust, but any other language works too!"
         link="COMING SOON"
       />
     </div>
