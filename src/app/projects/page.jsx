@@ -24,11 +24,6 @@ export default function Page() {
         link="https://github.com/frc3512/Robot-2023"
       />
       <Project
-        title="Security Notes Vault"
-        description="My Obsidian vault for storing security notes."
-        link="https://github.com/secmancer/sec-notes-repo"
-      />
-      <Project
         title="Oh What Fun!"
         description="A Minecraft mod I built for ModFest 1.17. Adds ridable sleds into the game."
         link="https://github.com/secmancer/oh_what_fun"
