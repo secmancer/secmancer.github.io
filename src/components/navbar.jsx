@@ -18,10 +18,6 @@ const links = [
     name: "Certificates",
     href: "/certs",
   },
-  {
-    name: "Resume",
-    href: "/resume",
-  },
 ];
 
 export default async function Navbar({ children }) {
