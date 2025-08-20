@@ -36,12 +36,7 @@ export default function Page() {
       <Project
         title="Lineage"
         description="An app for users/authors everywhere to create and collaborate on intricate storylines. Built as a team of other students in Intro to Software Engineering."
-        link="COMING SOON"
-      />
-      <Project
-        title="Security Tools"
-        description="Repo where I attempt to write security tools myself. Mostly aiming to do so in Rust, but any other language works too!"
-        link="COMING SOON"
+        link="https://github.com/secmancer/lineage"
       />
     </div>
   );
