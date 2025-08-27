@@ -1,3 +1,3 @@
-# secmancer.github.io
+# Portfolio
 
-Personal portfolio website 
+My personal portfolio website built using Next.js and Tailwind CSS.
