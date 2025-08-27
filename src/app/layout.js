@@ -1,5 +1,6 @@
 import { ThemeProvider } from "next-themes";
 import { Geist, Geist_Mono } from "next/font/google";
+import Navbar from "@/components/navbar";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -22,7 +23,9 @@ export default function Layout({ children }) {
     <html suppressHydrationWarning>
       <head />
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <Navbar>{children}</Navbar>
+        </ThemeProvider>
       </body>
     </html>
   );
