@@ -22,6 +22,10 @@ const links = [
     name: "Certificates",
     href: "/certs",
   },
+  {
+    name: "Contact",
+    href: "/contact",
+  },
 ];
 
 export default function Navbar() {
