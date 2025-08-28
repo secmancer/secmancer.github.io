@@ -1,15 +1,6 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import Navbar from "@/components/navbar";
 import { ThemeProvider } from "next-themes";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata = {
   title: "Adan Silva (secmancer)",
@@ -18,9 +9,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html>
-      <body>
-        <ThemeProvider>{children}</ThemeProvider>
+    <html lang="en" suppressHydrationWarning>
+      <body className="bg-white dark:bg-black min-h-dvh">
+        <ThemeProvider attribute="class">
+          <Navbar />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

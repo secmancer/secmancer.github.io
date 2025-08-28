@@ -1,9 +1,4 @@
-type SkillProps = {
-  title: string;
-  description: string;
-};
-
-export default function Skill({ title, description }: SkillProps) {
+export default function Skill({ title, description }) {
   return (
     <div className="mb-8 text-center">
       <h2 className="text-2xl font-semibold">{title}</h2>

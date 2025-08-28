@@ -1,16 +1,4 @@
-type JobProps = {
-  title: string;
-  workplace: string;
-  description: string;
-  dates: string;
-};
-
-export default function Job({
-  title,
-  workplace,
-  description,
-  dates,
-}: JobProps) {
+export default function Job({ title, workplace, description, dates }) {
   return (
     <div className="mb-8 text-center">
       <h2 className="text-2xl font-semibold">{title}</h2>

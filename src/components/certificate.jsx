@@ -1,17 +1,10 @@
-type CertProps = {
-  title: string;
-  organization: string;
-  date_of_issue: string;
-  date_of_expiry: string;
-  link: string;
-};
-
 export default function Cert({
   title,
   organization,
   date_of_issue,
   date_of_expiry,
-}: CertProps) {
+  link,
+}) {
   return (
     <div className="mb-8 text-center">
       <h2 className="text-2xl font-semibold">{title}</h2>
