@@ -10,7 +10,7 @@ export default function page() {
           <br />
           <br />
           <h6 className="text-2xl sm:text-4xl text-center">
-            Contact me below!
+            Contact me or check out my socials below!
           </h6>
         </header>
       </main>
