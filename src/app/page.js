@@ -16,12 +16,12 @@ export default function Home() {
           <br />
           <p className="text-center text-[#666] dark:text-[#999] text-lg sm:text-xl mt-2">
             Hello, my name is Adan Silva. I am a college sophmore at Cal Poly
-            San Luis Obispo pursuing a Bachelor's Degree in CS, with Data
+            San Luis Obispo pursuing a BS in CS, with Data
             Privacy and Security concentration. Currently, I am working as a
-            student assistant at Cal Poly's SOC, along with doing internship
+            student assistant at a SOC desinated for my school, along with doing internship
             work for NGHTWLL Consulting LLC, where I mostly fullfil centralized
             services administration. I am really interested in pursing a career
-            in cybersecurity, in which I'm currently educating myself in.
+            in cybersecurity, in which I am currently educating myself in.
             Additionally, I have earned my CompTIA Security+ and ITF+
             certificates.
           </p>
