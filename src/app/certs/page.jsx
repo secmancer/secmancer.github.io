@@ -17,6 +17,22 @@ export default function Page() {
         date_of_issue="March 2023"
         date_of_expiry="N/A"
       />
+      <br />
+      <h1 className="text-2xl">
+        <b>Currently Working on:</b>
+      </h1>
+      <Cert
+        title="CCNA (Cisco Certified Network Associate)"
+        organization="Cisco"
+        date_of_issue="TBD"
+        date_of_expiry="TBD"
+      />
+      <Cert
+        title="CISSP (Certified Information Systems Security Professional)"
+        organization="ISC2"
+        date_of_issue="TBD"
+        date_of_expiry="TBD"
+      />
     </div>
   );
 }

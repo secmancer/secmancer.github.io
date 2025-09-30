@@ -1,6 +1,4 @@
 import { Github, Linkedin, Instagram, Mail } from "lucide-react";
-import { SiTryhackme, SiHackthebox } from "react-icons/si";
-import { MdSchool } from "react-icons/md";
 
 export default function page() {
   return (
@@ -47,22 +45,6 @@ export default function page() {
             rel="noopener noreferrer"
           >
             <Instagram className="mr-2" />
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://app.hackthebox.com/profile/2508641"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <SiHackthebox className="mr-2 size-7" />
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://pwn.college/hacker/secmancer"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <MdSchool className="mr-2 size-7" />
           </a>
         </div>
       </footer>

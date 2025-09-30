@@ -40,6 +40,15 @@ export default function Page() {
         description="An app for users/authors everywhere to create and collaborate on intricate storylines. Built as a team of other students in Intro to Software Engineering."
         link="https://github.com/secmancer/lineage"
       />
+      <br />
+      <h1 className="text-2xl">
+        <b>Currently Working on:</b>
+      </h1>
+      <Project
+        title="Sec-Tools"
+        description="Repo with custom built security tools as a learning opportunity. Written in different languages for practice as well."
+        link="Coming soon!"
+      />
     </div>
   );
 }
