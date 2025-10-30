@@ -28,7 +28,7 @@ export default function Page() {
       <Project
         title="Oh What Fun!"
         description="A Minecraft mod I built for ModFest 1.17. Adds ridable sleds into the game."
-        link="https://github.com/secmancer/oh_what_fun"
+        link="https://github.com/secmancer/project-archive/tree/main/minecraft-sleigh-mod"
       />
       <Project
         title="Portfolio"
@@ -38,7 +38,7 @@ export default function Page() {
       <Project
         title="Lineage"
         description="An app for users/authors everywhere to create and collaborate on intricate storylines. Built as a team of other students in Intro to Software Engineering."
-        link="https://github.com/secmancer/lineage"
+        link="https://github.com/secmancer/project-archive/tree/main/lineage-csc307"
       />
       <br />
       <h1 className="text-2xl">
