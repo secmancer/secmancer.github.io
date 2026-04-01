@@ -31,15 +31,11 @@ export default function Page() {
       />
       <Skill
         title="Programming Languages"
-        description="Proficient in Python, Java, C++. Learning Rust."
+        description="Familiar with Python, C/C++, and Java. Learning Rust and Go."
       />
       <Skill
         title="Microsoft Office Suite"
         description="Proficient in Word, Excel, PowerPoint, and Outlook."
-      />
-      <Skill
-        title="Web Development"
-        description="Experience in building websites using HTML, CSS, and JavaScript."
       />
     </div>
   );
