@@ -1,0 +1,21 @@
+# Questions
+- What is the CVE assigned to the WinRAR vulnerability exploited by the RomCom threat group in 2025?
+	- CVE-2025-8088
+- What is the nature of this vulnerability?
+	- Path Traversal
+- What is the name of the archive file under Susan's documents folder that exploits the vulnerability upon opening the archive file?
+	- Pathology-Department-Research-Records.rar
+- When was the archive file created on the disk?
+	- 2025-09-02 08:13:50
+- When was the archive file opened?
+	- 2025-09-02 08:14:04
+- What is the name of the decoy document extracted from the archive file, meant to appear legitimate and distract the user?
+	- Genotyping_Results_B57_Positive.pdf
+- What is the name and path of the actual backdoor executable dropped by the archive file?
+	- C:\Users\susan\AppData\Local\ApbxHelper.exe
+- The exploit also drops a file to facilitate the persistence and execution of the backdoor. What is the path and name of this file?
+	- C:\Users\susan\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\Display Settings.lnk
+- What is the associated MITRE Technique ID discussed in the previous question?
+	- T1547.009
+- When was the decoy document opened by the end user, thinking it to be a legitimate document?
+	- 2025-09-02 08:15:05

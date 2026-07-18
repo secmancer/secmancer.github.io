@@ -1,0 +1,27 @@
+# Questions
+- According to MITRE ATT&CK, what previously known malware does DRATzarus share similarities with?
+	- Bankshot
+- Which Windows API function does DRATzarus use to detect the presence of a debugger?
+	- IsDebuggerPresent
+- Torisma is another piece of malware used by the Lazarus Group. According to MITRE, it has encrypted its C2 communications using XOR and which other method?
+	- VEST-32
+- Which packing method has been used to obfuscate Torisma?
+	- lz4 compression
+- Analyze the provided ISO file and identify the executable contained within it?
+	- InternalViewer.exe
+- The executable found in the previous question was renamed. Can you identify its original name?
+	- SumatraPDF.exe
+- According to VirusTotal, when was the EXE from the previous question First Seen In The Wild?(UTC)
+	- 2020-08-13 08:44:50
+- What packer was used to pack the executable from Question 6? (Full name)
+	- Ultimate Packer for Executables
+- What is the full URL found within the macro in the document Salary_Lockheed_Martin_job_opportunities_confidential.doc?
+	- [https://markettrendingcenter.com/lk_job_oppor.docx](https://markettrendingcenter.com/lk_job_oppor.docx)
+- Who is the author of the document Salary_Lockheed_Martin_job_opportunities_confidential.doc?
+	- Mickey
+- Who last modified the above document?
+	- Challenger
+- Analyze the "17.dotm" document. What is the directory where a suspicious folder was created? (Format: Give the path starting immediately after `<USER>`. Please pay attention to placeholder.)
+	- \AppData\Local\Microsoft\Notice
+- Which suspicious file was checked for existence in that directory?
+	- wsuser.db

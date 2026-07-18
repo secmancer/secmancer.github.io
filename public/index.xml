@@ -6,59 +6,65 @@
       <description>Last 10 notes on Adan Silva&#039;s Website</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Hack The Box - Machines</title>
+    <link>https://secmancer.github.io/hack-the-box---machines/</link>
+    <guid>https://secmancer.github.io/hack-the-box---machines/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:27:49 GMT</pubDate>
+  </item><item>
+    <title>Hack The Box - Sherlocks</title>
+    <link>https://secmancer.github.io/hack-the-box---sherlocks/</link>
+    <guid>https://secmancer.github.io/hack-the-box---sherlocks/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:27:49 GMT</pubDate>
+  </item><item>
+    <title>Hack The Box - Starting Point</title>
+    <link>https://secmancer.github.io/hack-the-box---starting-point/</link>
+    <guid>https://secmancer.github.io/hack-the-box---starting-point/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:27:49 GMT</pubDate>
+  </item><item>
     <title>Tag Index</title>
     <link>https://secmancer.github.io/tags/</link>
     <guid>https://secmancer.github.io/tags/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:20:10 GMT</pubDate>
-  </item><item>
-    <title>Projects</title>
-    <link>https://secmancer.github.io/projects</link>
-    <guid>https://secmancer.github.io/projects</guid>
-    <description><![CDATA[ Robot-2020 Source code for FRC 3512’s 2020 robot Robot-2022 Source code for FRC 3512’s 2022 robot SwerveRobot-2022 Offseason swerve code for the 2022 season. ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:19:58 GMT</pubDate>
+    <pubDate>Sat, 18 Jul 2026 04:27:49 GMT</pubDate>
   </item><item>
     <title>Experience</title>
     <link>https://secmancer.github.io/experience</link>
     <guid>https://secmancer.github.io/experience</guid>
     <description><![CDATA[ Cal Poly SLO Jr. SOC Analyst Student Assistant March 2024 - Present Defend against cyber threats and respond to security incidents. ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:14:19 GMT</pubDate>
-  </item><item>
-    <title>Hack the Box: Starting Point Writeups</title>
-    <link>https://secmancer.github.io/htb-starting-point</link>
-    <guid>https://secmancer.github.io/htb-starting-point</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:08:00 GMT</pubDate>
-  </item><item>
-    <title>Hack the Box: Sherlock Writeups</title>
-    <link>https://secmancer.github.io/htb-sherlocks</link>
-    <guid>https://secmancer.github.io/htb-sherlocks</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:07:47 GMT</pubDate>
-  </item><item>
-    <title>Hack the Box: Machine Writeups</title>
-    <link>https://secmancer.github.io/htb-machines</link>
-    <guid>https://secmancer.github.io/htb-machines</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:07:37 GMT</pubDate>
-  </item><item>
-    <title>Contact Me!</title>
-    <link>https://secmancer.github.io/contact</link>
-    <guid>https://secmancer.github.io/contact</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:02:09 GMT</pubDate>
-  </item><item>
-    <title>Certificates</title>
-    <link>https://secmancer.github.io/certificates</link>
-    <guid>https://secmancer.github.io/certificates</guid>
-    <description><![CDATA[ Main Certifications CompTIA ITF+ Issued in March 2023 CompTIA Security+ Issued in September 2023 Expires in Septermber 2026 Currently working on renewing it CCNA (Cisco Certified Network Associate) Currently a work in progress Goal: Late 2026 - Early 2027 Additional Certifications SOC Summit 2026 Is... ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:00:50 GMT</pubDate>
+    <pubDate>Sat, 18 Jul 2026 04:20:25 GMT</pubDate>
   </item><item>
     <title>Home</title>
     <link>https://secmancer.github.io/</link>
     <guid>https://secmancer.github.io/</guid>
     <description><![CDATA[ Adan Silva - Cybersecurity Student Introduction My name is Adan Silva. ]]></description>
-    <pubDate>Sat, 18 Jul 2026 03:40:48 GMT</pubDate>
+    <pubDate>Sat, 18 Jul 2026 04:20:25 GMT</pubDate>
+  </item><item>
+    <title>Projects</title>
+    <link>https://secmancer.github.io/projects</link>
+    <guid>https://secmancer.github.io/projects</guid>
+    <description><![CDATA[ Robot-2020 Source code for FRC 3512’s 2020 robot Robot-2022 Source code for FRC 3512’s 2022 robot SwerveRobot-2022 Offseason swerve code for the 2022 season. ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:20:25 GMT</pubDate>
+  </item><item>
+    <title>Hack the Box: Sherlock Writeups</title>
+    <link>https://secmancer.github.io/htb-sherlocks</link>
+    <guid>https://secmancer.github.io/htb-sherlocks</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:20:25 GMT</pubDate>
+  </item><item>
+    <title>Hack the Box: Starting Point Writeups</title>
+    <link>https://secmancer.github.io/htb-starting-point</link>
+    <guid>https://secmancer.github.io/htb-starting-point</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:20:25 GMT</pubDate>
+  </item><item>
+    <title>Hack the Box: Machine Writeups</title>
+    <link>https://secmancer.github.io/htb-machines</link>
+    <guid>https://secmancer.github.io/htb-machines</guid>
+    <description><![CDATA[ Machines Cap Conversor Expressway Facts GoodGames Jerry Nibbles Pterodactyl Sau Soulmate WingData. ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:20:25 GMT</pubDate>
   </item>
     </channel>
   </rss>

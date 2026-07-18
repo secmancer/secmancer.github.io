@@ -1,0 +1,29 @@
+# Questions
+- The victim received an email from an unidentified sender. What email address was used for the suspicious email?
+	- ImSecretlyYours@proton.me
+- It appears there's a link within the email. Can you provide the complete URL where the malicious binary file was hosted?
+	- http://44.206.187.144:9000/Superstar_MemberCard.tiff.exe
+- The threat actor managed to identify the victim's AWS credentials. From which file type did the threat actor extract these credentials?
+	- .ost
+- Provide the actual IAM credentials of the victim found within the artifacts.
+	- AKIA52GPOBQCK73P2PXL:OFqG/yLZYaudty0Rma6arxVuHFTGQuM6St8SWySj
+- When (UTC) was the malicious binary activated on the victim's workstation?
+	- 2024-03-13 10:45:02
+- Following the download and execution of the binary file, the victim attempted to search for specific keywords on the internet. What were those keywords?
+	- superstar cafe membership
+- At what time (UTC) did the binary successfully send an identical malicious email from the victim's machine to all the contacts?
+	- 2024-03-13 10:47:51
+- How many recipients were targeted by the distribution of the said email excluding the victim's email account?
+	- 58
+- Which legitimate program was utilized to obtain details regarding the domain controller?
+	- nltest.exe
+- Specify the domain (including sub-domain if applicable) that was used to download the tool for exfiltration.
+	- us.softradar.com
+- The threat actor attempted to conceal the tool to elude suspicion. Can you specify the name of the folder used to store and hide the file transfer program?
+	- HelpDesk-Tools
+- Under which MITRE ATT&CK technique does the action described in question #11 fall?
+	- [`Masquerading`](https://attack.mitre.org/techniques/T1036/)
+- Can you determine the minimum number of files that were compressed before they were extracted?
+	- 26
+- To exfiltrate data from the victim's workstation, the binary executed a command. Can you provide the complete command used for this action?
+	- `"C:\Users\Public\HelpDesk-Tools\WinSCP.com" /script="C:\Users\Public\HelpDesk-Tools\maintenanceScript.txt"`

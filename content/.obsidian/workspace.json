@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "01e9cc3dd3f039ba",
+        "id": "a55865dd01ccc450",
         "type": "tabs",
         "children": [
           {
-            "id": "fe8ed97f0b8b8352",
+            "id": "f6e9ab63c54e11ce",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "htb-starting-point.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "htb-starting-point"
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "htb-starting-point.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for htb-starting-point"
             }
           },
           {
@@ -108,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "htb-starting-point.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from htb-starting-point"
             }
           },
           {
@@ -150,12 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "htb-starting-point.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of htb-starting-point"
             }
           }
         ]
@@ -176,16 +183,48 @@
       "bases:Create new base": false
     }
   },
-  "active": "d1c6abe1c7434de0",
+  "active": "f6e9ab63c54e11ce",
   "lastOpenFiles": [
-    "projects.md",
-    "index.md",
-    "experience.md",
-    "htb-starting-point.md",
-    "htb-sherlocks.md",
     "htb-machines.md",
-    "contact.md",
-    "skills.md",
-    "certificates.md"
+    "index.md",
+    "Hack The Box - Starting Point/Vaccine.md",
+    "Hack The Box - Starting Point/Unified.md",
+    "Hack The Box - Starting Point/Three.md",
+    "Hack The Box - Starting Point/Tactics.md",
+    "Hack The Box - Starting Point/Synced.md",
+    "Hack The Box - Starting Point/Sequel.md",
+    "Hack The Box - Starting Point/Responder.md",
+    "Hack The Box - Starting Point/Redeemer.md",
+    "Hack The Box - Starting Point/Preignition.md",
+    "Hack The Box - Starting Point/Pennyworth.md",
+    "Hack The Box - Starting Point/Oopsie.md",
+    "Hack The Box - Starting Point/Mongod.md",
+    "Hack The Box - Starting Point/Meow.md",
+    "Hack The Box - Starting Point/Markup.md",
+    "Hack The Box - Starting Point/Included.md",
+    "Hack The Box - Starting Point/Ignition.md",
+    "Hack The Box - Starting Point/Funnel.md",
+    "Hack The Box - Starting Point/Fawn.md",
+    "Hack The Box - Starting Point/Explosion.md",
+    "Hack The Box - Starting Point/Dancing.md",
+    "Hack The Box - Starting Point/Crocodile.md",
+    "Hack The Box - Starting Point/Bike.md",
+    "Hack The Box - Starting Point/Base.md",
+    "Hack The Box - Starting Point/Archetype.md",
+    "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_132954.png",
+    "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_132817.png",
+    "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_132457.png",
+    "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_132240.png",
+    "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_123353.png",
+    "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_122522.png",
+    "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_121100.png",
+    "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_000629.png",
+    "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_000317.png",
+    "Hack The Box - Sherlocks/Screenshots/Screenshot_20251202_234547.png",
+    "Hack The Box - Starting Point",
+    "Hack The Box - Sherlocks/Screenshots",
+    "Hack The Box - Sherlocks",
+    "Hack The Box - Machines/Screenshots",
+    "Hack The Box - Machines"
   ]
 }
