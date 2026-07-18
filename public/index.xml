@@ -6,64 +6,64 @@
       <description>Last 10 notes on Adan Silva&#039;s Website</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Hack The Box - Sherlocks</title>
-    <link>https://secmancer.github.io/hack-the-box---sherlocks/</link>
-    <guid>https://secmancer.github.io/hack-the-box---sherlocks/</guid>
-    <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:41:11 GMT</pubDate>
-  </item><item>
     <title>Hack The Box - Machines</title>
     <link>https://secmancer.github.io/hack-the-box---machines/</link>
     <guid>https://secmancer.github.io/hack-the-box---machines/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:41:11 GMT</pubDate>
+    <pubDate>Sat, 18 Jul 2026 05:14:02 GMT</pubDate>
+  </item><item>
+    <title>Hack The Box - Sherlocks</title>
+    <link>https://secmancer.github.io/hack-the-box---sherlocks/</link>
+    <guid>https://secmancer.github.io/hack-the-box---sherlocks/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 18 Jul 2026 05:14:02 GMT</pubDate>
   </item><item>
     <title>Hack The Box - Starting Point</title>
     <link>https://secmancer.github.io/hack-the-box---starting-point/</link>
     <guid>https://secmancer.github.io/hack-the-box---starting-point/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:41:11 GMT</pubDate>
+    <pubDate>Sat, 18 Jul 2026 05:14:02 GMT</pubDate>
   </item><item>
     <title>Tag Index</title>
     <link>https://secmancer.github.io/tags/</link>
     <guid>https://secmancer.github.io/tags/</guid>
     <description><![CDATA[  ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:41:11 GMT</pubDate>
+    <pubDate>Sat, 18 Jul 2026 05:14:02 GMT</pubDate>
+  </item><item>
+    <title>Home</title>
+    <link>https://secmancer.github.io/</link>
+    <guid>https://secmancer.github.io/</guid>
+    <description><![CDATA[ Adan Silva - Cybersecurity Student Introduction My name is Adan Silva. ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:42:11 GMT</pubDate>
+  </item><item>
+    <title>Hack the Box: Machine Writeups</title>
+    <link>https://secmancer.github.io/hack-the-box---machines/htb-machines</link>
+    <guid>https://secmancer.github.io/hack-the-box---machines/htb-machines</guid>
+    <description><![CDATA[ Machines Cap Conversor Expressway Facts GoodGames Jerry Nibbles Pterodactyl Sau Soulmate WingData. ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:42:11 GMT</pubDate>
   </item><item>
     <title>Hack the Box: Sherlock Writeups</title>
     <link>https://secmancer.github.io/hack-the-box---sherlocks/htb-sherlocks</link>
     <guid>https://secmancer.github.io/hack-the-box---sherlocks/htb-sherlocks</guid>
     <description><![CDATA[ BFT Brutus Heartbreaker i-like-to Jingle Bell Litter Lockpick LogJammer Meerkat Nubilum2 PhishNet Pikaptcha Recollection RogueOne RomCom SalineBreeze-1 Tracer Ultimatum Unit42. ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:38:23 GMT</pubDate>
+    <pubDate>Sat, 18 Jul 2026 04:42:11 GMT</pubDate>
   </item><item>
     <title>Hack the Box: Starting Point Writeups</title>
     <link>https://secmancer.github.io/hack-the-box---starting-point/htb-starting-point</link>
     <guid>https://secmancer.github.io/hack-the-box---starting-point/htb-starting-point</guid>
     <description><![CDATA[ Appointment Archetype Base Bike Crocodile Dancing Explosion Fawn Funnel Ignition Included Markup Meow Mongod Oopsie Pennyworth Preignition Redeemer Responder Sequel Synced Tactics Three Unified Vaccine. ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:33:24 GMT</pubDate>
+    <pubDate>Sat, 18 Jul 2026 04:42:11 GMT</pubDate>
   </item><item>
-    <title>BFT</title>
-    <link>https://secmancer.github.io/hack-the-box---sherlocks/bft</link>
-    <guid>https://secmancer.github.io/hack-the-box---sherlocks/bft</guid>
-    <description><![CDATA[ Questions Simon Stark was targeted by attackers on February 13. He downloaded a ZIP file from a link received in an email. ]]></description>
+    <title>Cap</title>
+    <link>https://secmancer.github.io/hack-the-box---machines/cap</link>
+    <guid>https://secmancer.github.io/hack-the-box---machines/cap</guid>
+    <description><![CDATA[ Flags User 34034a18a7503210fe0cd579e9fdbef3 Root 3122db1f342573ed0d1913013d512e05 Notes First, a rustscan: rustscan --ulimit 5000 --addresses &quot;10.129.2.14&quot; --top -- -sC -sV We can see that 3 TCP ports are open: 21, 22, 80 Navigating to the website, we are given a dashboard to work with. ]]></description>
     <pubDate>Sat, 18 Jul 2026 04:28:01 GMT</pubDate>
   </item><item>
-    <title>Brutus</title>
-    <link>https://secmancer.github.io/hack-the-box---sherlocks/brutus</link>
-    <guid>https://secmancer.github.io/hack-the-box---sherlocks/brutus</guid>
-    <description><![CDATA[ Questions Analyze the auth.log. ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:28:01 GMT</pubDate>
-  </item><item>
-    <title>Dream Job-2</title>
-    <link>https://secmancer.github.io/hack-the-box---sherlocks/dream-job-2</link>
-    <guid>https://secmancer.github.io/hack-the-box---sherlocks/dream-job-2</guid>
-    <description><![CDATA[ Questions According to MITRE ATT&amp;CK, what previously known malware does DRATzarus share similarities with? Bankshot Which Windows API function does DRATzarus use to detect the presence of a debugger? IsDebuggerPresent Torisma is another piece of malware used by the Lazarus Group. ]]></description>
-    <pubDate>Sat, 18 Jul 2026 04:28:01 GMT</pubDate>
-  </item><item>
-    <title>Heartbreaker</title>
-    <link>https://secmancer.github.io/hack-the-box---sherlocks/heartbreaker</link>
-    <guid>https://secmancer.github.io/hack-the-box---sherlocks/heartbreaker</guid>
-    <description><![CDATA[ Questions The victim received an email from an unidentified sender. ]]></description>
+    <title>Conversor</title>
+    <link>https://secmancer.github.io/hack-the-box---machines/conversor</link>
+    <guid>https://secmancer.github.io/hack-the-box---machines/conversor</guid>
+    <description><![CDATA[ Flags User 8af5ff977387ef463e5e60aed2fc9b4e Root 04538c593f836e7b9f8b1db1bfd1059a Notes First, let’s do a scan rustscan --ulimit 5000 --addresses &quot;10.129.14.15&quot; --top -- -sC -sV We get an SSH server and a web server that forwards to conversor.htb PORT STATE SERVICE REASON VERSION 22/tcp op... ]]></description>
     <pubDate>Sat, 18 Jul 2026 04:28:01 GMT</pubDate>
   </item>
     </channel>
