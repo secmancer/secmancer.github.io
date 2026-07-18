@@ -1,0 +1,53 @@
+# Questions
+- What was the originating IP address the Threat Actor (TA) used to infiltrate the Forela’s AWS account?
+	- 54.242.59.197
+- What was the time, filename, and Account ID of the first recorded s3 object accessed by the TA?
+	- 2023-11-02T14:52:03Z,prod-EC2-readonly_accessKeys.csv,anonymous
+- How many Access Keys were compromised, at a minimum?
+	- 7
+- The TA executed a command to filter EC2 instances. What were the name and value used for filtering?
+	- instance-state-name:running
+- Can you provide the count of unsuccessful discovery and privilege escalation attempts made by the TA before gaining elevated access with the compromised keys?
+	- 42
+- Which IAM user successfully gained elevated privileges in this incident?
+	- dev-policy-specialist
+- Which event name permitted the threat actor to generate an admin-level policy?
+	- PutUserPolicy
+- What is the name and statement of the policy that was created that gave a standard user account elevated privileges?
+	- sbhyy79zky,[{"Effect": "Allow","Action": "*","Resource": "*"}]
+- What was the ARN (Amazon Resource Name) used to encrypt the files?
+	- arn:aws:kms:us-east-1:263954014653:key/mrk-85e24f85d964469cba9e4589335dd0f4
+- What was the name of the file that the TA uploaded to the S3 bucket?
+	- README2DECRYPT.txt
+- Which IAM user account did the TA modify in order to gain additional persistent access?
+	- forela-admin
+- What action was the user not authorized to perform to view or download the file in the S3 bucket?
+	- kms:Decrypt
+
+
+# Notes
+- We are given a folder with CloudTrail log files, which are given in the JSON format
+- These log files can be put into a program like ELK or Splunk that allows us to conduct searches over weeks and months worth of data
+- To answer the first question, we can filter out the data using the requestParameters
+- Specifically, we search for any sort of unusual or unauthorized usage of access keys, so we'll look for "forela-fileshare"
+- We can then find an IP address that stands out, which allows us to answer the question
+- Next, we can move along to see when the threat actor has viewed or downloaded stuff from the S3 bucket
+- From that, we can then pull the timestamp, the filename of the file that was accessed, and then the account ID that was used to get this file.
+- Next, we need to determine how many access keys were compromised
+- We can do this by filtering out for that specific threat actor IP and looking for any "accessKeys.csv"
+- From that, we are able to see that at least 7 access keys were compromised
+- Next, let's answer the filtering question
+- We can do this by looking  through the same events, in which we find the filtering we need to answer the question
+- Next, we need to find the number of attempts that the threat actor made, which we can do by filtering for the same IP address and then by the "AccessDenied" error code
+- We then get the count we need.
+- Let's get the IAM user that was able to gain elevated privileges
+- We can actually pull from the same events, and get what we need
+- Next, we need the event name that allowed this to happen, which can also be found in the same events
+- Let's also go ahead to pull the name and statement of the policy as well
+- Next, we need the ARN or Amazon Resource Name that was used to encrypt the files
+- We are also able to pull out the same information from the events as well
+- Next, let's get the name of the file that the threat actor uploaded
+- We are also able to see the name of it from the PutObject events
+- Let's find the IAM user account that was used to modify the bucket for persistent access
+- We can pull from the same events, and get our answer
+- Lastly, let's get the action that was not authorized to the user, in which we can see what we need to get from the same list of events.

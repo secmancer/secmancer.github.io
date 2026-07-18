@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Adan Silva&#039;s Website</title>
+      <link>https://secmancer.github.io</link>
+      <description>Last 10 notes on Adan Silva&#039;s Website</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Hack The Box - Sherlocks</title>
+    <link>https://secmancer.github.io/hack-the-box---sherlocks/</link>
+    <guid>https://secmancer.github.io/hack-the-box---sherlocks/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:41:11 GMT</pubDate>
+  </item><item>
+    <title>Hack The Box - Machines</title>
+    <link>https://secmancer.github.io/hack-the-box---machines/</link>
+    <guid>https://secmancer.github.io/hack-the-box---machines/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:41:11 GMT</pubDate>
+  </item><item>
+    <title>Hack The Box - Starting Point</title>
+    <link>https://secmancer.github.io/hack-the-box---starting-point/</link>
+    <guid>https://secmancer.github.io/hack-the-box---starting-point/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:41:11 GMT</pubDate>
+  </item><item>
+    <title>Tag Index</title>
+    <link>https://secmancer.github.io/tags/</link>
+    <guid>https://secmancer.github.io/tags/</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:41:11 GMT</pubDate>
+  </item><item>
+    <title>Hack the Box: Sherlock Writeups</title>
+    <link>https://secmancer.github.io/hack-the-box---sherlocks/htb-sherlocks</link>
+    <guid>https://secmancer.github.io/hack-the-box---sherlocks/htb-sherlocks</guid>
+    <description><![CDATA[ BFT Brutus Heartbreaker i-like-to Jingle Bell Litter Lockpick LogJammer Meerkat Nubilum2 PhishNet Pikaptcha Recollection RogueOne RomCom SalineBreeze-1 Tracer Ultimatum Unit42. ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:38:23 GMT</pubDate>
+  </item><item>
+    <title>Hack the Box: Starting Point Writeups</title>
+    <link>https://secmancer.github.io/hack-the-box---starting-point/htb-starting-point</link>
+    <guid>https://secmancer.github.io/hack-the-box---starting-point/htb-starting-point</guid>
+    <description><![CDATA[ Appointment Archetype Base Bike Crocodile Dancing Explosion Fawn Funnel Ignition Included Markup Meow Mongod Oopsie Pennyworth Preignition Redeemer Responder Sequel Synced Tactics Three Unified Vaccine. ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:33:24 GMT</pubDate>
+  </item><item>
+    <title>BFT</title>
+    <link>https://secmancer.github.io/hack-the-box---sherlocks/bft</link>
+    <guid>https://secmancer.github.io/hack-the-box---sherlocks/bft</guid>
+    <description><![CDATA[ Questions Simon Stark was targeted by attackers on February 13. He downloaded a ZIP file from a link received in an email. ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:28:01 GMT</pubDate>
+  </item><item>
+    <title>Brutus</title>
+    <link>https://secmancer.github.io/hack-the-box---sherlocks/brutus</link>
+    <guid>https://secmancer.github.io/hack-the-box---sherlocks/brutus</guid>
+    <description><![CDATA[ Questions Analyze the auth.log. ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:28:01 GMT</pubDate>
+  </item><item>
+    <title>Dream Job-2</title>
+    <link>https://secmancer.github.io/hack-the-box---sherlocks/dream-job-2</link>
+    <guid>https://secmancer.github.io/hack-the-box---sherlocks/dream-job-2</guid>
+    <description><![CDATA[ Questions According to MITRE ATT&amp;CK, what previously known malware does DRATzarus share similarities with? Bankshot Which Windows API function does DRATzarus use to detect the presence of a debugger? IsDebuggerPresent Torisma is another piece of malware used by the Lazarus Group. ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:28:01 GMT</pubDate>
+  </item><item>
+    <title>Heartbreaker</title>
+    <link>https://secmancer.github.io/hack-the-box---sherlocks/heartbreaker</link>
+    <guid>https://secmancer.github.io/hack-the-box---sherlocks/heartbreaker</guid>
+    <description><![CDATA[ Questions The victim received an email from an unidentified sender. ]]></description>
+    <pubDate>Sat, 18 Jul 2026 04:28:01 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>

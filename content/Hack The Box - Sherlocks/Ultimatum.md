@@ -1,0 +1,56 @@
+# Questions
+- Which security scanning tool was utilized by the attacker to fingerprint the blog website?
+	- wpscan/3.8.24
+- Which CVE was exploited by the attacker?
+	- CVE-2023-3460
+- What was the IP Address utilized by the attacker to exploit the CVE?
+	- 23.106.60.163
+- What is the name of the backdoor user added to the blog as part of the exploitation process?
+	- secragon
+- After the exploit, the SOC team observed that the attacker's IP address changed and from the logs, it seems that the attacker manually explored the website after logging in. The SOC team believes that the previous IP seen during exploitation was a public cloud IP. What is the IP Address the attacker used after logging in to the site?
+	- 198.16.74.45
+- The SOC team has suspicions that the attacker added a web shell for persistent access. Confirm the full path of the web shell on the server.
+	-  /var/www/html/wp-content/themes/twentytwentythree/patterns/hidden-comments.php
+- What was the value of the $shell variable in the web shell?
+	- `'uname -a; w; id; /bin/bash -i';`
+- What is the size of the webshell in bytes?
+	- 2592
+- The SOC team believes that the attacker utilized the webshell to get RCE on the server. Can you confirm the C2 IP and Port?
+	- 43.204.24.76:6969
+- What is the process ID of the process which enabled the Threat Actor (TA) to gain hands-on access to the server?
+	- 234521
+- What is the name of the script/tool utilized as part of internal enumeration and finding privilege escalation paths on the server?
+	- linenum.sh
+
+
+# Notes
+-  When unzipped, we are given output from the CatScale tool, which collects a bunch of information from different sources on the machine and compiles them all into one source
+- The first question asks about what security scannting tool was used by the attacker
+- From the output, we are able to see the usage of wpscan
+- Specifically, we are also able to identify the version of this program as well: 3.8.24
+- Now that we know that, we need the CVE that this machine was vulnerable to, and ultimately exploited with
+- We  can use PowerShell commands like select-string to go through the logs and pull out a certain pattern
+- Due to the CVE numbers following the same pattern, we can easily do this
+- From this, we are able to see that CVE-2023-3460 was used here
+- Next, we need an IP address. We can pull from the same resource
+- We get the IP of 23.106.60.163
+- Now, we need the specific name of the backdoor that was used
+- Just like the IP address, we can also pull from the same exact resource
+- In this case, we are able to see the backdoor being referred to as secragon
+- Next, we need another IP address since it was suspected that the previous one was a spoofed one.
+- So for this, we can look into the backdoor itself which can include some secrets
+- Sure enough, we can see the script calling back to the attacker's true IP address of 198.16.74.45
+- Next, it asks for the full path of the file.
+- We can refer back to the backdoor, and pull out the file path of: /var/www/html/wp-content/themes/twentytewntythree/patterns/hidden-comments.php
+- We then need the value of the $shell variable
+-  We can actually pull this from the script as well, in which we get: uname -a; w; id; /bin/bash -i
+- The full size of the script is asked, in which we can use Select-String to help with this.
+- From those results, we are able to see that the script is 2592 bytes long
+- Now, let's confirm the IP and Port that the C2 was using to establish its connection
+- We can also pull that out from the payload, in which we see the IP of 43.204.24.76 and the port 6969 for the connection
+- Next, we need the process if. We can pull this out from the specific Process and Network log files.
+- We can then see that it was assigned a PID of 234521
+- Lastly, we need  the name of the tool used for enumeration and priv-esc within the server
+- We can look into the logs, but also use the MFT as well to double check its existence
+- We are then able to see that this attacker has some taste, and in fact used LinPEAS
+- Specifically, they used the LinEnum.sh script to do the work
