@@ -1,9 +1,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
     <loc>https://secmancer.github.io/certificates</loc>
-    <lastmod>2026-07-18T04:00:50.459Z</lastmod>
+    <lastmod>2026-07-18T04:20:25.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/contact</loc>
-    <lastmod>2026-07-18T04:02:09.102Z</lastmod>
+    <lastmod>2026-07-18T04:20:25.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/experience</loc>
     <lastmod>2026-07-18T04:20:25.000Z</lastmod>
@@ -14,192 +14,192 @@
     <loc>https://secmancer.github.io/projects</loc>
     <lastmod>2026-07-18T04:20:25.000Z</lastmod>
   </url><url>
-    <loc>https://secmancer.github.io/htb-sherlocks</loc>
-    <lastmod>2026-07-18T04:20:25.000Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/htb-starting-point</loc>
-    <lastmod>2026-07-18T04:20:25.000Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/htb-machines</loc>
-    <lastmod>2026-07-18T04:20:25.000Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---machines/cap</loc>
-    <lastmod>2026-06-24T15:56:34.277Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---machines/facts</loc>
-    <lastmod>2026-06-24T15:56:34.277Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---machines/expressway</loc>
-    <lastmod>2026-06-24T15:56:34.277Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---machines/goodgames</loc>
-    <lastmod>2026-06-24T15:56:34.277Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---machines/conversor</loc>
-    <lastmod>2026-06-24T15:56:34.277Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---machines/jerry</loc>
-    <lastmod>2026-06-24T15:56:34.277Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---machines/nibbles</loc>
-    <lastmod>2026-06-24T15:56:34.277Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---machines/sau</loc>
-    <lastmod>2026-06-24T15:56:34.277Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---machines/pterodactyl</loc>
-    <lastmod>2026-06-24T15:56:26.147Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---machines/wingdata</loc>
-    <lastmod>2026-06-24T15:56:26.147Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---machines/soulmate</loc>
-    <lastmod>2026-06-24T15:56:34.280Z</lastmod>
-  </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/bft</loc>
-    <lastmod>2026-06-24T15:56:34.280Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/brutus</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---sherlocks/heartbreaker</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---sherlocks/jingle-bell</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/dream-job-2</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---sherlocks/lockpick</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
+    <loc>https://secmancer.github.io/hack-the-box---sherlocks/heartbreaker</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---sherlocks/logjammer</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
+    <loc>https://secmancer.github.io/hack-the-box---sherlocks/jingle-bell</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/litter</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---sherlocks/lockpick</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---sherlocks/logjammer</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/meerkat</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/nubilum2</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/phishnet</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/pikaptcha</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---sherlocks/rogueone</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/recollection</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---sherlocks/tracer</loc>
-    <lastmod>2026-06-24T15:56:34.283Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---sherlocks/salinebreeze-1</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
+    <loc>https://secmancer.github.io/hack-the-box---sherlocks/rogueone</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/romcom</loc>
-    <lastmod>2026-06-24T15:56:34.282Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---sherlocks/unit42</loc>
-    <lastmod>2026-06-24T15:56:34.283Z</lastmod>
+    <loc>https://secmancer.github.io/hack-the-box---sherlocks/salinebreeze-1</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---sherlocks/tracer</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/ultimatum</loc>
-    <lastmod>2026-06-24T15:56:34.283Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---sherlocks/unit42</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---sherlocks/htb-sherlocks</loc>
+    <lastmod>2026-07-18T04:38:23.504Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/i-like-to</loc>
-    <lastmod>2026-06-24T15:56:34.283Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/cap</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/conversor</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/expressway</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/facts</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/goodgames</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/jerry</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/nibbles</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/pterodactyl</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/sau</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/soulmate</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/wingdata</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/htb-machines</loc>
+    <lastmod>2026-07-18T04:27:15.751Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/appointment</loc>
-    <lastmod>2026-06-24T15:56:34.283Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/archetype</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---starting-point/bike</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---starting-point/crocodile</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---starting-point/dancing</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/base</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---starting-point/bike</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---starting-point/crocodile</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---starting-point/dancing</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/explosion</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/fawn</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/funnel</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/ignition</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/included</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/markup</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/meow</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---starting-point/oopsie</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/mongod</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---starting-point/oopsie</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/pennyworth</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/preignition</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/redeemer</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
-  </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---starting-point/sequel</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/responder</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---starting-point/sequel</loc>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/synced</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/tactics</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/three</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/unified</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/vaccine</loc>
-    <lastmod>2026-06-24T15:56:34.285Z</lastmod>
+    <lastmod>2026-07-18T04:28:01.000Z</lastmod>
   </url><url>
-    <loc>https://secmancer.github.io/hack-the-box---machines/</loc>
-    <lastmod>2026-07-18T04:27:49.644Z</lastmod>
+    <loc>https://secmancer.github.io/hack-the-box---starting-point/htb-starting-point</loc>
+    <lastmod>2026-07-18T04:33:24.714Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---sherlocks/</loc>
-    <lastmod>2026-07-18T04:27:49.644Z</lastmod>
+    <lastmod>2026-07-18T04:41:11.127Z</lastmod>
+  </url><url>
+    <loc>https://secmancer.github.io/hack-the-box---machines/</loc>
+    <lastmod>2026-07-18T04:41:11.127Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/hack-the-box---starting-point/</loc>
-    <lastmod>2026-07-18T04:27:49.644Z</lastmod>
+    <lastmod>2026-07-18T04:41:11.127Z</lastmod>
   </url><url>
     <loc>https://secmancer.github.io/tags/</loc>
-    <lastmod>2026-07-18T04:27:49.644Z</lastmod>
+    <lastmod>2026-07-18T04:41:11.127Z</lastmod>
   </url></urlset>

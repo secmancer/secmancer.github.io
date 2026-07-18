@@ -12,9 +12,9 @@ I have earned my CompTIA ITF+ and Security+, and I am working on earning my Cisc
 
 Welcome to my personal website! Here, I have details about my portfolio along with where I host my Hack The Box writeups as well. If you are interested in those, make sure to check them out!
 ## Hack The Box Writeups
-### [Hack the Box: Machine Writeups](htb-machines)
-### [Hack the Box: Sherlock Writeups](htb-sherlocks)
-### [Hack the Box: Starting Point Writeups](htb-starting-point)
+### [Hack the Box: Machine Writeups](htb-machines.md)
+### [Hack the Box: Sherlock Writeups](htb-sherlocks.md)
+### [Hack the Box: Starting Point Writeups](htb-starting-point.md)
 ## Portfolio
 ### [Experience](experience)
 ### [Certificates](certificates)

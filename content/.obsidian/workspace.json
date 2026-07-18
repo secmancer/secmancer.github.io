@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a55865dd01ccc450",
+        "id": "345af0a8d192e94a",
         "type": "tabs",
         "children": [
           {
-            "id": "f6e9ab63c54e11ce",
+            "id": "6f4673d790efed03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "htb-starting-point.md",
+                "file": "Hack The Box - Starting Point/htb-starting-point.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "htb-starting-point.md",
+                "file": "Hack The Box - Starting Point/htb-starting-point.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "htb-starting-point.md",
+                "file": "Hack The Box - Starting Point/htb-starting-point.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "htb-starting-point.md",
+                "file": "Hack The Box - Starting Point/htb-starting-point.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -183,9 +183,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "f6e9ab63c54e11ce",
+  "active": "6f4673d790efed03",
   "lastOpenFiles": [
-    "htb-machines.md",
+    "Hack The Box - Sherlocks/htb-sherlocks.md",
+    "Hack The Box - Starting Point/htb-starting-point.md",
+    "Hack The Box - Machines/htb-machines.md",
     "index.md",
     "Hack The Box - Starting Point/Vaccine.md",
     "Hack The Box - Starting Point/Unified.md",
@@ -209,8 +211,6 @@
     "Hack The Box - Starting Point/Dancing.md",
     "Hack The Box - Starting Point/Crocodile.md",
     "Hack The Box - Starting Point/Bike.md",
-    "Hack The Box - Starting Point/Base.md",
-    "Hack The Box - Starting Point/Archetype.md",
     "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_132954.png",
     "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_132817.png",
     "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_132457.png",

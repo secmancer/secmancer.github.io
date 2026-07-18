@@ -1,0 +1,22 @@
+---
+title: "Hack the Box: Sherlock Writeups"
+---
+## [BFT](bft)
+## [Brutus](brutus)
+## [Heartbreaker](heartbreaker)
+## [i-like-to](i-like-to)
+## [Jingle Bell](jingle-bell)
+## [Litter](litter)
+## [Lockpick](lockpick)
+## [LogJammer](logjammer)
+## [Meerkat](meerkat)
+## [Nubilum2](nubilum2)
+## [PhishNet](phishnet)
+## [Pikaptcha](pikaptcha)
+## [Recollection](recollection)
+## [RogueOne](rougeone)
+## [RomCom](romcom)
+## [SalineBreeze-1](salinebreeze-1)
+## [Tracer](tracer)
+## [Ultimatum](ultimatum)
+## [Unit42](unit42)
