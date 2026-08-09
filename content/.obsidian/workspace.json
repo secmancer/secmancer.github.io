@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "058b67a87c671dd6",
+        "id": "db1f4cb2a7ac66ba",
         "type": "tabs",
         "children": [
           {
-            "id": "d44cf201d7f8bb5e",
+            "id": "6b58352cda5a2a41",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "certificates.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "certificates"
+              "title": "New tab"
             }
           }
         ]
@@ -185,10 +181,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "d44cf201d7f8bb5e",
+  "active": "6b58352cda5a2a41",
   "lastOpenFiles": [
-    "index.md",
     "experience.md",
+    "index.md",
+    "projects.md",
+    "certificates.md",
     "contact.md",
     "Hack The Box - Starting Point/htb-starting-point.md",
     "Hack The Box - Sherlocks/htb-sherlocks.md",
@@ -211,8 +209,6 @@
     "Hack The Box - Starting Point/Ignition.md",
     "Hack The Box - Starting Point/Funnel.md",
     "Hack The Box - Starting Point/Fawn.md",
-    "Hack The Box - Starting Point/Explosion.md",
-    "Hack The Box - Starting Point/Dancing.md",
     "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_132954.png",
     "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_132817.png",
     "Hack The Box - Sherlocks/Screenshots/Screenshot_20251203_132457.png",

@@ -11,10 +11,13 @@ I currently work as a Jr. SOC Analyst student assistant for Cal Poly's ITS depar
 I have earned my CompTIA ITF+ and Security+, and I am working on earning my Cisco CCNA.
 
 Welcome to my personal website! Here, I have details about my portfolio along with where I host my Hack The Box writeups as well. If you are interested in those, make sure to check them out!
+
 ## Hack The Box Writeups
 ### [Hack the Box: Machine Writeups](htb-machines.md)
 ### [Hack the Box: Sherlock Writeups](htb-sherlocks.md)
 ### [Hack the Box: Starting Point Writeups](htb-starting-point.md)
+
+
 ## Portfolio
 ### [Experience](experience)
 ### [Certificates](certificates)
