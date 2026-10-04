@@ -21,5 +21,6 @@ Welcome to my personal website! Here, I have details about my portfolio along wi
 ## Portfolio
 ### [Experience](experience)
 ### [Certificates](certificates)
+### [Skills](skills)
 ### [Projects](projects)
 ### [Contact Me!](contact)

@@ -14,3 +14,5 @@ title: Projects
 - A Minecraft mod I built for ModFest 1.17. Adds ridable sleds into the game.
 # [Lineage](https://github.com/secmancer/project-archive/tree/main/lineage-csc307)
 - An app for users/authors everywhere to create and collaborate on intricate storylines. Built as a team of other students in Intro to Software Engineering.
+# [StealthyMCPToolAttack](https://github.com/secmancer/StealthyMCPToolAttack)
+- Code for a group project for CSC 429, where we studied improving the stealthiness of Tool Learning Attacks against LLM Agents
